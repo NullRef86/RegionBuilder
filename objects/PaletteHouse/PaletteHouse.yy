@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "6c760603-2d4b-475a-93f9-b0ccd6dc5754",
             "propertyId": "b54a0e1c-7d26-4101-bb11-f5f8c23e564f",
-            "value": "BrushHouse"
+            "value": "House"
         }
     ],
     "parentObjectId": "6c760603-2d4b-475a-93f9-b0ccd6dc5754",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7024ec51-1e86-42d7-b42b-8fd6573bc668",
+    "spriteId": "2eb97717-cf48-4176-ae3a-f7851a8df490",
     "visible": true
 }

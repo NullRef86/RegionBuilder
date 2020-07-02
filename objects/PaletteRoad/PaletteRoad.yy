@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "6c760603-2d4b-475a-93f9-b0ccd6dc5754",
             "propertyId": "b54a0e1c-7d26-4101-bb11-f5f8c23e564f",
-            "value": "BrushRoad"
+            "value": "Road"
         }
     ],
     "parentObjectId": "6c760603-2d4b-475a-93f9-b0ccd6dc5754",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "cf673cf2-a534-4aaf-80dd-a68fcf6938f0",
+    "spriteId": "3474a64a-da06-40bb-8628-b6c9bc926fc4",
     "visible": true
 }

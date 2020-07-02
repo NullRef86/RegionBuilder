@@ -73,11 +73,11 @@
             "rangeMin": 0,
             "resourceFilter": 256,
             "value": "0",
-            "varName": "BrushRef",
+            "varName": "BuildingRef",
             "varType": 5
         }
     ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "visible": false
 }

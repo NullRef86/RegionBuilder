@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "6c760603-2d4b-475a-93f9-b0ccd6dc5754",
             "propertyId": "b54a0e1c-7d26-4101-bb11-f5f8c23e564f",
-            "value": "BrushMarket"
+            "value": "Market"
         }
     ],
     "parentObjectId": "6c760603-2d4b-475a-93f9-b0ccd6dc5754",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ec68c962-0d6a-4964-8335-e208725c3a10",
+    "spriteId": "5bf3451f-0e0d-4e96-9641-ca773c3e1a90",
     "visible": true
 }

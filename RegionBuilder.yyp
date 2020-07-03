@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
+            "Value": {
+                "id": "67b5fc78-5f91-493e-beeb-4db9a9b37a43",
+                "resourcePath": "objects\\Terrain\\Terrain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7eafaaf2-8490-4812-9457-323c77a32d20",
             "Value": {
                 "id": "4fe025ca-2a61-4483-a6cd-6cd59fe14225",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "cbe4f5d3-a126-4e3a-a3f4-75d22b89343c",
+            "Value": {
+                "id": "07c9abee-8d8e-43d0-a163-dee756c197bb",
+                "resourcePath": "objects\\PaletteRoad\\PaletteRoad.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "da4709e3-ba1f-4f7b-91ed-2708812136dc",
@@ -324,14 +340,6 @@
                 "id": "9de5fa0f-80b3-48ff-bc3f-6ce91b7fed22",
                 "resourcePath": "sprites\\MarketSprite\\MarketSprite.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "fe6a0bb7-67f6-4a25-8ebb-1eeda2041727",
-            "Value": {
-                "id": "8e8fb0b5-d21a-428d-8453-dbb06ae936af",
-                "resourcePath": "objects\\PaletteRoad\\PaletteRoad.yy",
-                "resourceType": "GMObject"
             }
         },
         {

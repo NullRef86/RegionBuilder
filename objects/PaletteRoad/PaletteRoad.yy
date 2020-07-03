@@ -1,5 +1,5 @@
 {
-    "id": "fe6a0bb7-67f6-4a25-8ebb-1eeda2041727",
+    "id": "cbe4f5d3-a126-4e3a-a3f4-75d22b89343c",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "PaletteRoad",
@@ -9,7 +9,7 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "fe4bd5b2-afea-45ef-b8e7-de24aa878e4c",
+            "id": "f6f914de-1abe-497b-ac08-8093f2413f32",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "6c760603-2d4b-475a-93f9-b0ccd6dc5754",

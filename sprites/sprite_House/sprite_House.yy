@@ -2,7 +2,7 @@
     "id": "7024ec51-1e86-42d7-b42b-8fd6573bc668",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "HouseSprite",
+    "name": "sprite_House",
     "For3D": false,
     "HTile": false,
     "VTile": false,

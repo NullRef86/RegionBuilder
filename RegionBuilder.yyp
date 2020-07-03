@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "26bb7a13-6835-4939-bfcd-97b821af0ced",
+            "Value": {
+                "id": "21715ee6-675f-4660-a79a-ca6cc9a9c596",
+                "resourcePath": "views\\26bb7a13-6835-4939-bfcd-97b821af0ced.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "271d2206-870a-46ec-9888-f17b11e64dbd",
             "Value": {
                 "id": "772641bc-ddc9-49cf-a783-0174afd93772",
@@ -90,7 +98,7 @@
             "Key": "2eb97717-cf48-4176-ae3a-f7851a8df490",
             "Value": {
                 "id": "5a76b19e-6d96-4bed-bd98-8ebe9cdf6034",
-                "resourcePath": "sprites\\sprite_HousePalette\\sprite_HousePalette.yy",
+                "resourcePath": "sprites\\sprite_PaletteHouse\\sprite_PaletteHouse.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -98,7 +106,7 @@
             "Key": "3474a64a-da06-40bb-8628-b6c9bc926fc4",
             "Value": {
                 "id": "9493e795-d55b-49a8-82b8-049ffeb0c044",
-                "resourcePath": "sprites\\sprite_RoadPalette\\sprite_RoadPalette.yy",
+                "resourcePath": "sprites\\sprite_PaletteRoad\\sprite_PaletteRoad.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -127,10 +135,26 @@
             }
         },
         {
+            "Key": "53a3e96b-46ea-4e6e-9662-68e46b93cef1",
+            "Value": {
+                "id": "2ad5d884-7113-4cb1-91eb-2650ad1b7fd6",
+                "resourcePath": "objects\\PaletteWater\\PaletteWater.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "56a17282-9031-498f-b781-4aa3046ff493",
+            "Value": {
+                "id": "5ef71e18-dc48-459d-a1f1-cf86fc3a8d46",
+                "resourcePath": "views\\56a17282-9031-498f-b781-4aa3046ff493.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5bf3451f-0e0d-4e96-9641-ca773c3e1a90",
             "Value": {
                 "id": "e67cd0e8-38c6-43b5-bec4-fc4d0451c418",
-                "resourcePath": "sprites\\sprite_MarketPalette\\sprite_MarketPalette.yy",
+                "resourcePath": "sprites\\sprite_PaletteMarket\\sprite_PaletteMarket.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,10 +191,18 @@
             }
         },
         {
+            "Key": "6d78a294-2c74-4f80-b8ef-85f5bff55785",
+            "Value": {
+                "id": "f5e9f7e3-340d-4590-ae85-61d340435166",
+                "resourcePath": "sprites\\sprite_Water\\sprite_Water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7024ec51-1e86-42d7-b42b-8fd6573bc668",
             "Value": {
                 "id": "51f7a26c-b3d4-4d8d-92ce-b863502d261d",
-                "resourcePath": "sprites\\HouseSprite\\HouseSprite.yy",
+                "resourcePath": "sprites\\sprite_House\\sprite_House.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -231,6 +263,14 @@
             }
         },
         {
+            "Key": "b13d4fec-79dd-4a6b-a1dc-c96febdfe274",
+            "Value": {
+                "id": "25ff525d-be86-424d-afdf-4ccb66fdcb30",
+                "resourcePath": "sprites\\sprite_PaletteWater\\sprite_PaletteWater.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b2072107-5294-4b83-a57d-12e4b062923d",
             "Value": {
                 "id": "bb1544df-aa6b-48bd-ac1a-d841f0626d21",
@@ -287,6 +327,14 @@
             }
         },
         {
+            "Key": "cc39a768-fc9e-4eef-9552-106e318c4e62",
+            "Value": {
+                "id": "c36ac67a-ebf4-4300-86a2-120f04c586c0",
+                "resourcePath": "objects\\Water\\Water.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "da4709e3-ba1f-4f7b-91ed-2708812136dc",
@@ -298,8 +346,16 @@
             "Key": "cf673cf2-a534-4aaf-80dd-a68fcf6938f0",
             "Value": {
                 "id": "abe51884-29d1-4e02-9760-a016a11e3b53",
-                "resourcePath": "sprites\\RoadSprite\\RoadSprite.yy",
+                "resourcePath": "sprites\\sprite_Road\\sprite_Road.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9fd0bd5-dc10-4008-af92-4cb39ed560a3",
+            "Value": {
+                "id": "c5f27dad-2a58-4242-aab6-21e3064d5903",
+                "resourcePath": "views\\d9fd0bd5-dc10-4008-af92-4cb39ed560a3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -338,7 +394,7 @@
             "Key": "ec68c962-0d6a-4964-8335-e208725c3a10",
             "Value": {
                 "id": "9de5fa0f-80b3-48ff-bc3f-6ce91b7fed22",
-                "resourcePath": "sprites\\MarketSprite\\MarketSprite.yy",
+                "resourcePath": "sprites\\sprite_Market\\sprite_Market.yy",
                 "resourceType": "GMSprite"
             }
         },

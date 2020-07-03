@@ -7,7 +7,8 @@
         "6c760603-2d4b-475a-93f9-b0ccd6dc5754",
         "03775033-fb8e-4ae6-b624-9866ecf83a8f",
         "be7e814f-86d0-4d0e-a6bd-261cfebfcbf2",
-        "cbe4f5d3-a126-4e3a-a3f4-75d22b89343c"
+        "cbe4f5d3-a126-4e3a-a3f4-75d22b89343c",
+        "53a3e96b-46ea-4e6e-9662-68e46b93cef1"
     ],
     "filterType": "GMObject",
     "folderName": "Palettes",

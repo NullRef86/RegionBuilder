@@ -1,26 +1,33 @@
 /// @desc Pick-up or Drop / Paint
 if (mouse_x <= 128)
 {
+	// No action if in the palette zone
 	return;	
 }
 
 if (_isPickedUp)
 {
-	show_debug_message("Dropped...");
+	// Drop this
 	_isPickedUp = false;
 	
+	// If painting (as opposed to moving)
 	if (global.CurrentBrush != undefined)
 	{
-		show_debug_message("Creating new for paint...");
-		
+		// Create a copy of this to put in the brush
 		global.CurrentBrush = instance_copy(true);
+		
+		// Set this to be in the building layer
+		layer = layer_get_id("BuildingLayer");		
 	}
 }
 else
 {
-	show_debug_message("Picked up...");
+	if (global.CurrentBrush != undefined)
+	{	
+		// Don't want to pick up if painting
+		return;	
+	}
 	
-	ClearBrush();
-	
+	ClearBrush();	
 	_isPickedUp = true;
 }

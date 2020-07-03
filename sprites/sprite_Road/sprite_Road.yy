@@ -2,7 +2,7 @@
     "id": "cf673cf2-a534-4aaf-80dd-a68fcf6938f0",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "RoadSprite",
+    "name": "sprite_Road",
     "For3D": false,
     "HTile": false,
     "VTile": false,

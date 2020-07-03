@@ -1,22 +1,13 @@
 {
-    "id": "67fe5446-49af-4d26-9bb3-5018861c2bd2",
+    "id": "cc39a768-fc9e-4eef-9552-106e318c4e62",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Road",
+    "name": "Water",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "d86f73c5-5013-4829-b8d4-b564dba9bf72",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
-            "propertyId": "23a6f200-3142-4828-bd7b-b7f90c86988e",
-            "value": "RoadLayer"
-        }
-    ],
+    "overriddenProperties": null,
     "parentObjectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "cf673cf2-a534-4aaf-80dd-a68fcf6938f0",
+    "spriteId": "6d78a294-2c74-4f80-b8ef-85f5bff55785",
     "visible": true
 }

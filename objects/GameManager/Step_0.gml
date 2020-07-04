@@ -7,8 +7,7 @@ if (mouse_check_button(mb_middle))
     camera_set_view_pos(view_camera[0], _vx, _vy);
 }
 
-
-if (global.CurrentBrush != undefined)
+if (keyboard_check(vk_control))
 {
 	return;	
 }
@@ -21,7 +20,7 @@ var view_w = camera_get_view_width(view_camera[0]);
 var view_h = camera_get_view_height(view_camera[0]);
 
 // Set the rate of interpolation
-var rate = 0.2;
+var rate = 0.5;
 
 // Get new sizes by interpolating current and target zoomed size
 var new_w = lerp(view_w, zoom_level * default_zoom_width, rate);

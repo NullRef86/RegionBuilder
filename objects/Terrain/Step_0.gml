@@ -51,7 +51,7 @@ if (_isPainting)
 	}
 }
 
-if (mouse_check_button(mb_middle) && _isHovered)
+if (mouse_check_button(mb_right) && _isHovered)
 {	
 	instance_destroy();
 }

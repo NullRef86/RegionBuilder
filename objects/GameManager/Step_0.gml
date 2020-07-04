@@ -1,5 +1,18 @@
 /// @desc Handle camera
 
+if (mouse_check_button(mb_middle))
+{		
+    var _vx = camera_get_view_x(view_camera[0]) + (dragRoomX - mouse_x);
+    var _vy = camera_get_view_y(view_camera[0]) + (dragRoomY - mouse_y);
+    camera_set_view_pos(view_camera[0], _vx, _vy);
+}
+
+
+if (global.CurrentBrush != undefined)
+{
+	return;	
+}
+
 // This is changes the zoom based on scolling but you can set it how ever you like
 zoom_level = clamp(zoom_level + (((mouse_wheel_down() - mouse_wheel_up())) * 0.1), 0.5, 2);
 
@@ -25,8 +38,8 @@ var new_x = lerp(vpos_x,vpos_x+(view_w - zoom_level * default_zoom_width)/2, rat
 var new_y = lerp(vpos_y,vpos_y+(view_h - zoom_level * default_zoom_height)/2, rate);
 
 //Get the shift necessary to re-align the view.
-var shift_x = camera_get_view_x(view_camera[0]) - (new_w - view_w) * 0.5;
-var shift_y = camera_get_view_y(view_camera[0]) - (new_h - view_h) * 0.5;
+shift_x = camera_get_view_x(view_camera[0]) - (new_w - view_w) * 0.5;
+shift_y = camera_get_view_y(view_camera[0]) - (new_h - view_h) * 0.5;
 
 //Update the view position
 camera_set_view_pos(view_camera[0],shift_x, shift_y);

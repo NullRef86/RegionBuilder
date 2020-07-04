@@ -7,12 +7,6 @@ if (_isPainting)
 	// If left clicking
 	if (mouse_check_button(mb_left))
 	{
-		// Do nothing in the palette zone
-		if (mouse_x <= 128)
-		{
-			return;	
-		}
-
 		// Loop through all terrain...
 		var freeToPaint = true;		
 		with Terrain

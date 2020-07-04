@@ -7,13 +7,7 @@ if (_isPickedUp)
 	// If painting (as opposed to moving)
 	if (global.CurrentBrush != undefined)
 	{
-		// Create a copy of this to put in the brush		
-		var building = instance_copy(true);
-		with (building)
-		{
-			_isPickedUp = true;	
-		}		
-		global.CurrentBrush = building;
+		global.CurrentBrush = undefined;
 		
 		// Set this to be in the building layer
 		layer = layer_get_id("BuildingLayer");		
@@ -21,12 +15,6 @@ if (_isPickedUp)
 }
 else
 {
-	if (global.CurrentBrush != undefined)
-	{	
-		// Don't want to pick up if painting
-		return;	
-	}
-	
 	ClearBrush();	
 	_isPickedUp = true;
 }

@@ -8,7 +8,8 @@
         "2eb97717-cf48-4176-ae3a-f7851a8df490",
         "5bf3451f-0e0d-4e96-9641-ca773c3e1a90",
         "3474a64a-da06-40bb-8628-b6c9bc926fc4",
-        "b13d4fec-79dd-4a6b-a1dc-c96febdfe274"
+        "b13d4fec-79dd-4a6b-a1dc-c96febdfe274",
+        "360096e1-e9ce-47a0-9751-35227179f8a5"
     ],
     "filterType": "GMSprite",
     "folderName": "Palette",

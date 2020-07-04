@@ -13,6 +13,9 @@ paletteButtons[2, 1] = Road;
 paletteButtons[3, 0] = sprite_PaletteWater;
 paletteButtons[3, 1] = Water;
 
+paletteButtons[4, 0] = sprite_PaletteSettlement;
+paletteButtons[4, 1] = Settlement;
+
 var startX = 64;
 var startY = 64;
 

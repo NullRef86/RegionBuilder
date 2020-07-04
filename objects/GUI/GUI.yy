@@ -1,38 +1,18 @@
 {
-    "id": "e0304910-4430-4ef1-82bc-60da5f1875c1",
+    "id": "fa45aa2c-21ff-4bb2-9af8-3525571ef9fa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GameManager",
+    "name": "GUI",
     "eventList": [
         {
-            "id": "c6dd54c4-5327-4049-b664-c8146378b115",
+            "id": "f90191c5-e1fe-4e34-8f1d-be721f223101",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 64,
             "eventtype": 8,
-            "m_owner": "e0304910-4430-4ef1-82bc-60da5f1875c1"
-        },
-        {
-            "id": "3cf02936-6ab7-4325-b2e9-8eb4a69a6038",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e0304910-4430-4ef1-82bc-60da5f1875c1"
-        },
-        {
-            "id": "73d034a2-9e1e-4939-989a-62f16a2c889d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "e0304910-4430-4ef1-82bc-60da5f1875c1"
+            "m_owner": "fa45aa2c-21ff-4bb2-9af8-3525571ef9fa"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

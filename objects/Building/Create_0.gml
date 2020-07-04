@@ -1,2 +1,2 @@
 /// @desc Setup variables
-_isPickedUp = true;
+_isPickedUp = false;

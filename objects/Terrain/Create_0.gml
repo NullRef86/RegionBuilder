@@ -1,3 +1,3 @@
 /// @desc Setup variables
-_isPainting = true;
+_isPainting = false;
 _isHovered = false;

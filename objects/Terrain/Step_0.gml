@@ -15,7 +15,8 @@ if (_isPainting)
 
 		// Loop through all terrain...
 		var freeToPaint = true;		
-		with Terrain {			
+		with Terrain
+		{			
 			// If the other terrain is different to this (the brush)...
 			if (id != other.id)
 			{
@@ -36,8 +37,13 @@ if (_isPainting)
 			// Drop this
 			_isPainting = false;
 		
-			// Create a copy of this to put in the brush
-			global.CurrentBrush = instance_copy(true);
+			// Create a copy of this to put in the brush		
+			var terrain = instance_copy(true);
+			with (terrain)
+			{
+				_isPainting = true;	
+			}		
+			global.CurrentBrush = terrain;
 		
 			// Set this to be in the appropriate layer
 			layer = layer_get_id(TargetLayerId);		

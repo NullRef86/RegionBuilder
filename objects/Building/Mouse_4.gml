@@ -13,8 +13,13 @@ if (_isPickedUp)
 	// If painting (as opposed to moving)
 	if (global.CurrentBrush != undefined)
 	{
-		// Create a copy of this to put in the brush
-		global.CurrentBrush = instance_copy(true);
+		// Create a copy of this to put in the brush		
+		var building = instance_copy(true);
+		with (building)
+		{
+			_isPickedUp = true;	
+		}		
+		global.CurrentBrush = building;
 		
 		// Set this to be in the building layer
 		layer = layer_get_id("BuildingLayer");		

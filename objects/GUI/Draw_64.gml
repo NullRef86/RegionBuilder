@@ -23,6 +23,11 @@ for (var i = 0; i < array_length_1d(outputArray); i++;)
 	draw_text(startX, startY + (verticalSpacing * i), outputArray[i]);
 }
 
+if (global.CurrentAction != undefined)
+{
+	draw_text(startX, view_hport[0] - 32, global.CurrentAction);
+}
+
 draw_sprite(sprite_PaletteBackground, 0, 0, 0);
 
 paletteButtons[0, 0] = sprite_PaletteHouse; 
@@ -39,7 +44,6 @@ paletteButtons[3, 1] = Water;
 
 paletteButtons[4, 0] = sprite_PaletteSettlement;
 paletteButtons[4, 1] = Settlement;
-//paletteButtons[4, 1] = SettlementCreator;
 
 var startX = 64;
 var startY = 64;

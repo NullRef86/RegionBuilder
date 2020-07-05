@@ -2,6 +2,9 @@
 global.CurrentBrush = undefined;
 global.EditingSettlement = undefined;
 global.TemporaryUiElements = [];
+global.CurrentAction = undefined;
+
+SetupDeck();
 
 zoom_level = 1;
 

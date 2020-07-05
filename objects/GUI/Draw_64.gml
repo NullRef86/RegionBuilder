@@ -1,5 +1,4 @@
 /// @desc
-
 outputArray =
 	[
 		"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
@@ -12,7 +11,6 @@ outputArray =
 		"",
 		"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
 	];
-
 
 var startX = 138;
 var startY = 6;

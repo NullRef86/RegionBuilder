@@ -1,4 +1,9 @@
 /// @desc Pick-up or Drop / Paint
+if (IsOutOfView())
+{
+	return;	
+}
+
 if (_isPickedUp)
 {
 	// Drop this

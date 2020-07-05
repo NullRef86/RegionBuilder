@@ -85,6 +85,34 @@
             "value": "TerrainLayer",
             "varName": "TargetLayerId",
             "varType": 2
+        },
+        {
+            "id": "ce226f6f-9b52-4258-b50e-2d8118f954d6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ResourceType",
+            "varType": 5
+        },
+        {
+            "id": "4f007e28-03dc-4ab2-8dbb-696d6070c741",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "DuplicateSafezoneModifier",
+            "varType": 0
         }
     ],
     "solid": false,

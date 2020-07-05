@@ -1,6 +1,8 @@
 /// @desc
 outputArray =
 	[
+		//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
+		//"",
 		"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
 		"",
 		"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),
@@ -8,8 +10,8 @@ outputArray =
 		"Road layer count: " + string(array_length_1d(layer_get_all_elements("RoadLayer"))),
 		"Terrain layer count: " + string(array_length_1d(layer_get_all_elements("TerrainLayer"))),
 		"Instance count: " + string(instance_count),
-		"",
-		"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
+		//"",
+		//"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
 	];
 
 var startX = 138;

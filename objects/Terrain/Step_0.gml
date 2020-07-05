@@ -14,15 +14,15 @@ if (_isPainting)
 	{
 		// Loop through all terrain...
 		var freeToPaint = true;		
-		with Terrain
-		{			
+		with ResourceType
+		{
 			// If the other terrain is different to this (the brush)...
 			if (id != other.id)
 			{
 				// Check the distance...
 			    t = point_distance(x, y, other.x, other.y);				
 				// And if it's below a threshold...
-				if (t <= 1) 
+				if (t <= (_duplicateSafezoneRange * DuplicateSafezoneModifier)) 
 				{
 					// Then don't allow painting.
 					freeToPaint = false;	

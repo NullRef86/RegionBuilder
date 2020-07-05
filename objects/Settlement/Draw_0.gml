@@ -4,4 +4,6 @@ draw_set_valign(fa_middle);
 draw_text(x, y - 45, _settlementName);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+image_blend = _colour;
 draw_self();

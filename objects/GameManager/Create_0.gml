@@ -1,5 +1,7 @@
 /// @desc Setup global variables
 global.CurrentBrush = undefined;
+global.EditingSettlement = undefined;
+global.TemporaryUiElements = [];
 
 zoom_level = 1;
 

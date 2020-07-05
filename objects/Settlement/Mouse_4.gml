@@ -3,6 +3,7 @@ if (_isPickedUp)
 {
 	// Drop this
 	_isPickedUp = false;
+	global.EditingSettlement = undefined;
 	
 	// If painting (as opposed to moving)
 	if (global.CurrentBrush != undefined)

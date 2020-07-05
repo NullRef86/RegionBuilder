@@ -1,11 +1,4 @@
 /// @desc Setup variables
 _isPickedUp = false;
-
-_settlementName = get_string("Enter settlement name:", "");
-
-if (_settlementName == "")
-{
-	instance_destroy();
-}
-
-image_blend = make_color_rgb(200, 0, 0);
+_settlementName = get_string("Enter settlement name:", "Testington");
+_colour = c_white;

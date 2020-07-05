@@ -1,0 +1,2 @@
+/// @desc ???
+_isHovered = false;

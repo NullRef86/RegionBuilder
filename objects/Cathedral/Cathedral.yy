@@ -1,8 +1,8 @@
 {
-    "id": "95c38158-5550-4024-8e99-917ced6f0914",
+    "id": "a33ba418-c4bd-4e9b-af06-a305f80d0906",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "House",
+    "name": "Cathedral",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "0b662c2e-1798-4ad2-9463-9a71a514e012",
+    "spriteId": "8d59cbb2-6026-4de2-8d1c-2215570de92b",
     "visible": true
 }

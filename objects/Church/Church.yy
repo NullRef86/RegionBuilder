@@ -1,8 +1,8 @@
 {
-    "id": "95c38158-5550-4024-8e99-917ced6f0914",
+    "id": "4afb003c-2e7c-4c2a-9a05-094e2353eb27",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "House",
+    "name": "Church",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "0b662c2e-1798-4ad2-9463-9a71a514e012",
+    "spriteId": "b17e6741-968b-4825-b421-ea8d35333a4c",
     "visible": true
 }

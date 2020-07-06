@@ -23,6 +23,14 @@
             "objectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
             "propertyId": "ce226f6f-9b52-4258-b50e-2d8118f954d6",
             "value": "Road"
+        },
+        {
+            "id": "d555b868-35c6-4611-981a-3c9edd51b542",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
+            "propertyId": "4f007e28-03dc-4ab2-8dbb-696d6070c741",
+            "value": "0.75"
         }
     ],
     "parentObjectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",

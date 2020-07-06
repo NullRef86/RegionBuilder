@@ -1,18 +1,18 @@
 /// @desc
-outputArray =
-	[
-		//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
-		//"",
-		"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
-		"",
-		"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),
-		"Building layer count: " + string(array_length_1d(layer_get_all_elements("BuildingLayer"))),
-		"Road layer count: " + string(array_length_1d(layer_get_all_elements("RoadLayer"))),
-		"Terrain layer count: " + string(array_length_1d(layer_get_all_elements("TerrainLayer"))),
-		"Instance count: " + string(instance_count),
-		//"",
-		//"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
-	];
+//outputArray =
+//[
+//	//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
+//	//"",
+//	"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
+//	"",
+//	"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),
+//	"Building layer count: " + string(array_length_1d(layer_get_all_elements("BuildingLayer"))),
+//	"Road layer count: " + string(array_length_1d(layer_get_all_elements("RoadLayer"))),
+//	"Terrain layer count: " + string(array_length_1d(layer_get_all_elements("TerrainLayer"))),
+//	"Instance count: " + string(instance_count),
+//	//"",
+//	//"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
+//];
 
 //for (var i = 0; i < array_length_1d(outputArray); i++;)
 //{
@@ -44,6 +44,8 @@ paletteButtons =
 [
 	[House, $2265F2],
 	[Chapel, $2265F2],
+	[Church, $2265F2],
+	[Cathedral, $2265F2],
 	[Market, $00A0AB],
 	[Road, $0D41A0],
 	[Water, $BC7200],

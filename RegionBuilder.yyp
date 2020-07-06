@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0b662c2e-1798-4ad2-9463-9a71a514e012",
+            "Value": {
+                "id": "fbc423b3-199a-4861-8b25-58b28ebde874",
+                "resourcePath": "sprites\\sprite_House\\sprite_House.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "110605d1-3f6f-4d0e-9729-1896ce4da416",
             "Value": {
                 "id": "9824db67-46fc-4d44-b891-6aed81527e5b",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "4afb003c-2e7c-4c2a-9a05-094e2353eb27",
+            "Value": {
+                "id": "082f0123-2393-4727-942f-7ce3ee4599f5",
+                "resourcePath": "objects\\Church\\Church.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "508d094d-8394-4b4b-ac74-ba3f156ed0c7",
             "Value": {
                 "id": "ed7440a6-3bda-47a1-9a20-dbefa343282a",
@@ -231,14 +247,6 @@
             }
         },
         {
-            "Key": "7024ec51-1e86-42d7-b42b-8fd6573bc668",
-            "Value": {
-                "id": "51f7a26c-b3d4-4d8d-92ce-b863502d261d",
-                "resourcePath": "sprites\\sprite_House\\sprite_House.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
             "Value": {
                 "id": "67b5fc78-5f91-493e-beeb-4db9a9b37a43",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "8d59cbb2-6026-4de2-8d1c-2215570de92b",
+            "Value": {
+                "id": "618315a4-2697-4cd5-9299-77f754a73f0e",
+                "resourcePath": "sprites\\sprite_Cathedral\\sprite_Cathedral.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95c38158-5550-4024-8e99-917ced6f0914",
             "Value": {
                 "id": "2c6b46a2-7110-4835-af90-3930cede8743",
@@ -303,11 +319,27 @@
             }
         },
         {
+            "Key": "a33ba418-c4bd-4e9b-af06-a305f80d0906",
+            "Value": {
+                "id": "af459092-bdc6-43e9-947b-4caea6517e3a",
+                "resourcePath": "objects\\Cathedral\\Cathedral.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ad762389-d370-4a0b-8c18-cfccd0002557",
             "Value": {
                 "id": "67795925-8948-422d-acc9-f7c784537b73",
                 "resourcePath": "views\\ad762389-d370-4a0b-8c18-cfccd0002557.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b17e6741-968b-4825-b421-ea8d35333a4c",
+            "Value": {
+                "id": "13a41dc2-80dc-44e6-b1a9-ce8592122301",
+                "resourcePath": "sprites\\sprite_Church\\sprite_Church.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

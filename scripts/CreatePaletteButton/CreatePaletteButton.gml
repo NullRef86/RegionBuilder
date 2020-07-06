@@ -1,22 +1,23 @@
-/// @description CreatePaletteButton(x, y, spriteName, paintableObject)
+/// @description CreatePaletteButton(x, y, paintableObject, buttonBlend)
 /// @function CreatePaletteButton
 /// @param x
 /// @param y
-/// @param spriteName
 /// @param paintableObject
+/// @param buttonBlend
 //
 // [TODO]
 
 var positionX = argument0,
 var positionY = argument1,
-var spriteName = argument2;
+var spriteName = sprite_PaletteButton;
 var spriteHeight = sprite_get_height(spriteName);
 var spriteWidth = sprite_get_width(spriteName);
-var spriteLeft = positionX - (spriteWidth / 2);
-var spriteRight = positionX + (spriteWidth / 2);
-var spriteTop = positionY - (spriteHeight / 2);
-var spriteBottom = positionY + (spriteHeight / 2);
-var paintableObject = argument3;
+var spriteLeft = positionX;
+var spriteRight = positionX + spriteWidth;
+var spriteTop = positionY;
+var spriteBottom = positionY + spriteHeight;
+var paintableObject = argument2;
+var buttonBlend = argument3;
 
 var interaction = 0;
 if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), spriteLeft, spriteTop, spriteRight, spriteBottom))
@@ -32,9 +33,13 @@ if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), sprit
 	}
 }
 
-var useHoverImage = interaction > 0;
+var alpha = interaction > 0 ? 0.75 : 1;
 	
-draw_sprite_ext(spriteName, useHoverImage, positionX, positionY, 1, 1, 0, c_white, 1);
+draw_sprite_ext(spriteName, 1, positionX, positionY, 1, 1, 0, buttonBlend, alpha);
+draw_set_color(c_black);
+draw_text(positionX + 5, positionY, object_get_name(paintableObject));
+draw_set_color(c_white);
+
 
 if (interaction == 2)
 {

@@ -14,13 +14,23 @@ outputArray =
 		//"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
 	];
 
+//for (var i = 0; i < array_length_1d(outputArray); i++;)
+//{
+//	draw_text(startX, startY + (verticalSpacing * i), outputArray[i]);
+//}
+
+
+var tempQueue = ds_queue_create();
+
+ds_queue_copy(tempQueue, global.DrawDeck);
+
 var startX = 138;
 var startY = 6;
 var verticalSpacing = 20;
 
-for (var i = 0; i < array_length_1d(outputArray); i++;)
+for (var i = 0; i < ds_queue_size(global.DrawDeck); i++)
 {
-	draw_text(startX, startY + (verticalSpacing * i), outputArray[i]);
+	draw_text(startX, startY + (verticalSpacing * i), ds_queue_dequeue(tempQueue));
 }
 
 if (global.CurrentAction != undefined)
@@ -30,26 +40,25 @@ if (global.CurrentAction != undefined)
 
 draw_sprite(sprite_PaletteBackground, 0, 0, 0);
 
-paletteButtons[0, 0] = sprite_PaletteHouse; 
-paletteButtons[0, 1] = House;
+paletteButtons = 
+[
+	[House, $2265F2],
+	[Chapel, $2265F2],
+	[Market, $00A0AB],
+	[Road, $0D41A0],
+	[Water, $BC7200],
+	[Settlement, $912D66]
+];
 
-paletteButtons[1, 0] = sprite_PaletteMarket;
-paletteButtons[1, 1] = Market;
+var startX = 5;
+var startY = 5;
+var buttonHeight = sprite_get_height(sprite_PaletteButton);
+var horizontalSpacing = 5;
 
-paletteButtons[2, 0] = sprite_PaletteRoad;
-paletteButtons[2, 1] = Road;
-
-paletteButtons[3, 0] = sprite_PaletteWater;
-paletteButtons[3, 1] = Water;
-
-paletteButtons[4, 0] = sprite_PaletteSettlement;
-paletteButtons[4, 1] = Settlement;
-
-var startX = 64;
-var startY = 64;
-
-for (i = 0; i < array_height_2d(paletteButtons); i++)
+for (i = 0; i < array_length_1d(paletteButtons); i++)
 {
-	CreatePaletteButton(startX, startY, paletteButtons[i, 0], paletteButtons[i, 1]);
-	startY += 94;
+	var paletteButton = paletteButtons[i];
+	
+	CreatePaletteButton(startX, startY, paletteButton[0], paletteButton[1]);
+	startY += buttonHeight + horizontalSpacing;
 }

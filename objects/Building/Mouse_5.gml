@@ -6,3 +6,7 @@ if (keyboard_check(vk_control))
 {
 	instance_destroy();
 }
+else
+{
+	_isRuined = !_isRuined;	
+}

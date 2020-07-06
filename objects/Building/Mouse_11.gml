@@ -3,4 +3,5 @@ if (global.CurrentBrush != undefined)
 {
 	return;	
 }
-image_index = 0;
+
+_isHovered = false;

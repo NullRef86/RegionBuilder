@@ -3,5 +3,4 @@ if (_isPainting)
 {
 	return;	
 }
-image_index = 1;
 _isHovered = true;

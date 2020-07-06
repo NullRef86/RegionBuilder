@@ -3,4 +3,12 @@ if (global.CurrentBrush != undefined)
 {
 	return;	
 }
-image_index = 1;
+
+if (_isPickedUp)
+{
+	_isHovered = false;
+}
+else
+{
+	_isHovered = true;
+}

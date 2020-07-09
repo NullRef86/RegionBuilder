@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05b5d597-62c2-4942-866a-be8ece036bb2",
+            "Value": {
+                "id": "4c841f36-95b1-43de-abd8-07c83c55a824",
+                "resourcePath": "sprites\\sprite_Shop\\sprite_Shop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08087e62-e508-49b9-8693-71734a55b6f9",
             "Value": {
                 "id": "993fb9b3-cce5-44e0-b521-e924a66f0f56",
@@ -124,6 +132,14 @@
                 "id": "772641bc-ddc9-49cf-a783-0174afd93772",
                 "resourcePath": "views\\271d2206-870a-46ec-9888-f17b11e64dbd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2798bddc-e851-4ded-8903-179fb2bf1197",
+            "Value": {
+                "id": "427e19a5-a91e-46d2-adf3-eef6088e664b",
+                "resourcePath": "sprites\\sprite_Tavern\\sprite_Tavern.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +463,14 @@
             }
         },
         {
+            "Key": "d4f4c522-0b8f-4155-9b40-b45840aca47d",
+            "Value": {
+                "id": "8402998b-1f48-43f5-98f5-2713f8629c00",
+                "resourcePath": "objects\\Shop\\Shop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d9fd0bd5-dc10-4008-af92-4cb39ed560a3",
             "Value": {
                 "id": "c5f27dad-2a58-4242-aab6-21e3064d5903",
@@ -484,6 +508,14 @@
                 "id": "1b639e82-aa13-4272-943b-adef99f0d48e",
                 "resourcePath": "views\\e2b4672d-6e43-494e-b96f-1018c5cef38e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e85167f5-ecad-483a-9762-ee4d3bc95611",
+            "Value": {
+                "id": "14a8db14-66c8-4c27-ab98-e017f560a9c2",
+                "resourcePath": "objects\\Tavern\\Tavern.yy",
+                "resourceType": "GMObject"
             }
         },
         {

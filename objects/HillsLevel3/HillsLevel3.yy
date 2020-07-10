@@ -1,47 +1,36 @@
 {
-    "id": "5ac9a118-0761-45bb-bc93-ddfc4ce32a90",
+    "id": "b6f228a3-dc46-46ef-82a6-6fa00dd38182",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Hill",
+    "name": "HillsLevel3",
     "eventList": [
-        {
-            "id": "9d3f2ef8-f134-4a61-87ca-1f682f3158cf",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "5ac9a118-0761-45bb-bc93-ddfc4ce32a90"
-        },
-        {
-            "id": "4a3105bc-a1c9-4d4c-8668-0099c25ef95d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "5ac9a118-0761-45bb-bc93-ddfc4ce32a90"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "4700bec7-f169-459d-af15-476a27fbc80c",
+            "id": "8982de69-ae3d-4fac-9485-8524c87264cf",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
             "propertyId": "ce226f6f-9b52-4258-b50e-2d8118f954d6",
-            "value": "Hill"
+            "value": "HillsLevel3"
         },
         {
-            "id": "f93503c6-ffb0-4abc-8862-302a48261951",
+            "id": "4068cfec-5635-4efb-9929-1f7c50e3b97c",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
             "propertyId": "4f007e28-03dc-4ab2-8dbb-696d6070c741",
             "value": "1"
+        },
+        {
+            "id": "e4389c7a-bceb-42ab-8800-63ad29595fbd",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
+            "propertyId": "23a6f200-3142-4828-bd7b-b7f90c86988e",
+            "value": "HeightLevel3"
         }
     ],
     "parentObjectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
@@ -60,6 +49,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "0857d11f-7e4b-499c-8f14-cf34cd99795c",
+    "spriteId": "a0fab2aa-9daa-4f40-8b0c-5bfb1b9535b2",
     "visible": true
 }

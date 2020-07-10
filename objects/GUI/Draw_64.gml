@@ -59,7 +59,10 @@ paletteButtons =
 	[0],
 	[Water, $BC7200],
 	[Forest, $307B19],
-	[Hill, $315B2D],
+	[HillsLevel1, $2A4F26, "Hills (Lv.1)"],
+	[HillsLevel2, $274924, "Hills (Lv.2)"],
+	[HillsLevel3, $244421, "Hills (Lv.3)"],
+	[HillsLevel4, $1E3A1C, "Hills (Lv.4)"],
 	[Cliff, $7D7D7D],
 	[0],
 	[Road, $0D41A0],
@@ -82,6 +85,13 @@ for (i = 0; i < array_length_1d(paletteButtons); i++)
 		continue;
 	}
 
-	CreatePaletteButton(startX, currentY, paletteButton[0], paletteButton[1]);
+	var buttonText = undefined;
+	
+	if (array_length_1d(paletteButton) > 2)
+	{
+		buttonText = paletteButton[2];
+	}
+
+	CreatePaletteButton(startX, currentY, paletteButton[0], paletteButton[1], buttonText);
 	currentY += buttonHeight + horizontalSpacing;
 }

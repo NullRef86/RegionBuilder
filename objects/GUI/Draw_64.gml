@@ -66,6 +66,7 @@ paletteButtons =
 	[HillsLevel4, $1E3A1C, "Hills (Lv.4)"],
 	[Mountains, $707070],
 	[Cliff, $7D7D7D],
+	[Desert, $89C6FD],
 	[0],
 	[Road, $0D41A0],
 ];

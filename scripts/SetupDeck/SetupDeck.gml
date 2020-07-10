@@ -32,7 +32,7 @@ ds_list_add(
 	" 7 Diamonds: Discover or extend a forest",
 	" 8 Diamonds: Discover, extend, or elevate a hill",
 	" 9 Diamonds: Discover or extend a mountain",
-	"10 Diamonds: ",
+	"10 Diamonds: Discover or extend a desert",
 	" J Diamonds: ",
 	" Q Diamonds: ",
 	" K Diamonds: ",

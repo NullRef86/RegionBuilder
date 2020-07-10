@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "58954109-bc31-4fcb-bfc5-f03e56f0051b",
+            "Value": {
+                "id": "fb8d1f59-d7c9-441f-9cfc-caa987f4658e",
+                "resourcePath": "objects\\Desert\\Desert.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6664df58-b981-4306-a611-85040f9973bf",
             "Value": {
                 "id": "7460c0b5-7661-4f99-a3dd-d27086e97135",
@@ -595,6 +603,14 @@
             "Value": {
                 "id": "8448aecd-582e-4d3f-85b6-dad21bf5cb35",
                 "resourcePath": "sprites\\sprite_Shield\\sprite_Shield.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ddcd65b3-b28d-434b-af3f-b962e9fe2df0",
+            "Value": {
+                "id": "1bfe45c3-a7f7-467d-b789-82af0b7565c6",
+                "resourcePath": "sprites\\sprite_Desert\\sprite_Desert.yy",
                 "resourceType": "GMSprite"
             }
         },

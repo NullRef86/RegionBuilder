@@ -8,10 +8,11 @@
         "ea1baf15-f44e-4b26-a640-fe8d5dba859c",
         "a0fab2aa-9daa-4f40-8b0c-5bfb1b9535b2",
         "47d6b729-ebe8-4980-b4a0-27078c8837da",
+        "d9ca2df0-0cdf-4d0f-8499-2c93448cf870",
         "49687f8e-f0e1-49f2-8d4f-b8c566ddf878"
     ],
     "filterType": "GMSprite",
-    "folderName": "Hills",
+    "folderName": "Hills and Mountains",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

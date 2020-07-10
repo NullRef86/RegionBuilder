@@ -60,6 +60,7 @@ paletteButtons =
 	[Water, $BC7200],
 	[Forest, $307B19],
 	[Hill, $315B2D],
+	[Cliff, $7D7D7D],
 	[0],
 	[Road, $0D41A0],
 ];

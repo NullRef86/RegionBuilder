@@ -50,7 +50,9 @@ if (_isPainting)
 	}
 }
 
-if (mouse_check_button(mb_right) && _isHovered)
+if (keyboard_check(vk_control) &&
+	mouse_check_button(mb_right) && 
+	_isHovered)
 {	
 	instance_destroy();
 }

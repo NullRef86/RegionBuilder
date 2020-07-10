@@ -30,7 +30,7 @@ ds_list_add(
 	" 5 Diamonds: Build bridge",
 	" 6 Diamonds: Discover or extend a lake",
 	" 7 Diamonds: Discover or extend a forest",
-	" 8 Diamonds: ",
+	" 8 Diamonds: Discover, extend, or elevate a hill",
 	" 9 Diamonds: ",
 	"10 Diamonds: ",
 	" J Diamonds: ",

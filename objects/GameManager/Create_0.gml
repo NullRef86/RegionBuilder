@@ -3,6 +3,7 @@ global.CurrentBrush = undefined;
 global.EditingSettlement = undefined;
 global.TemporaryUiElements = [];
 global.CurrentAction = undefined;
+global.PaintingHeightLevel = 1;
 
 SetupDeck();
 

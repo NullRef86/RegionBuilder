@@ -2,9 +2,17 @@
 ClearBrush();
 _isPickedUp = false;
 
-if (keyboard_check(vk_control))
+// If control is held and done deleting, then delete
+if (keyboard_check(vk_control) &&
+	global.IsDoneDeleting)
 {
-	instance_destroy();
+	instance_destroy();	
+	
+	// If shift is also held, then don't stop deleting
+	if (!keyboard_check(vk_shift))
+	{
+		global.IsDoneDeleting = false;
+	}
 }
 else
 {

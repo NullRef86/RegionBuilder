@@ -7,6 +7,13 @@ if (mouse_check_button(mb_middle))
     camera_set_view_pos(view_camera[0], _vx, _vy);
 }
 
+// Done deleting if the right mouse button is ever released
+if (mouse_check_button_released(mb_right) && 
+	!global.IsDoneDeleting)
+{
+	global.IsDoneDeleting = true;
+}
+
 if (keyboard_check(vk_control))
 {
 	return;	

@@ -50,9 +50,18 @@ if (_isPainting)
 	}
 }
 
+// If control is held, AND right mouse is clicked, AND this terrain is hovered,
+// AND is done deleting, THEN delete
 if (keyboard_check(vk_control) &&
 	mouse_check_button(mb_right) && 
-	_isHovered)
+	_isHovered &&
+	global.IsDoneDeleting)
 {	
 	instance_destroy();
+	
+	// If shift is also held, then don't stop deleting
+	if (!keyboard_check(vk_shift))
+	{
+		global.IsDoneDeleting = false;
+	}
 }

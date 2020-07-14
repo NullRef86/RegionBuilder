@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19",
             "propertyId": "23a6f200-3142-4828-bd7b-b7f90c86988e",
-            "value": "TerrainLayer"
+            "value": "TreeLayer"
         },
         {
             "id": "062d5496-8a7b-4d34-99af-2193735528a4",

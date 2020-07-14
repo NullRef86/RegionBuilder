@@ -58,6 +58,7 @@ paletteButtons =
 	[Tavern, $00A0AB],
 	[Market, $00A0AB],
 	[Library, $A96085],
+	[Academy, $A96085],
 	[0],
 	[Water, $BC7200],
 	[Forest, $307B19],

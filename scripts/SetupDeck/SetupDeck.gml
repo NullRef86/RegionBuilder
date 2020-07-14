@@ -35,8 +35,8 @@ ds_list_add(
 	"10 Diamonds: Discover or extend a desert",
 	" J Diamonds: A merchant establishes a market",
 	" Q Diamonds: A trader establishes a trade route",
-	" K Diamonds: ",
-	" A Diamonds: ",
+	" K Diamonds: Build a library",
+	" A Diamonds: Build an acedemy",
 );
 
 //ds_list_shuffle(allCards);

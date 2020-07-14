@@ -11,7 +11,8 @@
         "05b5d597-62c2-4942-866a-be8ece036bb2",
         "2798bddc-e851-4ded-8903-179fb2bf1197",
         "ec68c962-0d6a-4964-8335-e208725c3a10",
-        "26c0a587-0c46-45ca-af00-70e8f12834e0"
+        "26c0a587-0c46-45ca-af00-70e8f12834e0",
+        "656adf0a-f36b-4143-b497-f1013c778b5b"
     ],
     "filterType": "GMSprite",
     "folderName": "Buildings",

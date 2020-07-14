@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "Road",
     "eventList": [
-        
+        {
+            "id": "c637f91f-42d5-43fe-a56d-f41c43765683",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "67fe5446-49af-4d26-9bb3-5018861c2bd2"
+        },
+        {
+            "id": "0a50165d-7694-4109-8a4e-2bfcfc83febf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "67fe5446-49af-4d26-9bb3-5018861c2bd2"
+        },
+        {
+            "id": "33d2d26a-b850-496b-825d-fc505d18690e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "67fe5446-49af-4d26-9bb3-5018861c2bd2"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

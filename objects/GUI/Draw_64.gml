@@ -69,6 +69,7 @@ paletteButtons =
 	[Desert, $89C6FD],
 	[0],
 	[Road, $0D41A0],
+	[TradeRoute, $1D94F8]
 ];
 
 var startX = 5;

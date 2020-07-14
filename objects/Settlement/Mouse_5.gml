@@ -5,6 +5,9 @@ if (keyboard_check(vk_control))
 	return;
 }
 
+show_debug_message("Setting RightClickHandled: true...");
+global.RightClickHandled = true;
+
 if (_isPickedUp)
 {
 	ClearBrush();
@@ -15,5 +18,6 @@ if (_isPickedUp)
 else
 {
 	global.EditingSettlement = self;
+	ClearUiElements();
 	instance_create_layer(x, y, "PaletteLayer", ColourPicker);
 }

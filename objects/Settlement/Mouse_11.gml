@@ -1,6 +1,8 @@
 /// @desc End hover
-if (global.CurrentBrush != undefined)
+if (global.CurrentBrush != undefined && 
+	IsCurrentBrush(TradeRoute) == false)
 {
 	return;	
 }
-image_index = 0;
+
+_isHovered = false;

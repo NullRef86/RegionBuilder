@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "195ad5b4-fa94-49fe-a915-0a8a3f1e7b0e",
+            "Value": {
+                "id": "9da508ac-5156-41bd-bb0e-0075afb1bf24",
+                "resourcePath": "sprites\\sprite_Coin\\sprite_Coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1a4fbd52-56d3-40ec-b771-da5be90f95d0",
             "Value": {
                 "id": "bdeec6b0-0697-49bb-ba5c-7af0a196e026",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "7fe3f9a0-ba76-4529-ae6d-fc337617d933",
+            "Value": {
+                "id": "5d1d3684-d0da-464c-b831-766913a4c931",
+                "resourcePath": "scripts\\IsCurrentBrush\\IsCurrentBrush.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "805a1438-92a8-45fb-9904-68ebed0a3271",
             "Value": {
                 "id": "1783a995-c2b8-4fc0-bc09-b19fdee92f72",
@@ -524,6 +540,14 @@
                 "id": "0034e136-2f24-40c4-973f-0e41e2cb0f67",
                 "resourcePath": "views\\c4b6f0be-af4e-4ed7-809b-3a4ccb55d7c3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c8a72882-4153-4e40-973a-a3971f3e4dcc",
+            "Value": {
+                "id": "d6e0f479-ec0f-4d99-87ac-1ae7f602ffbb",
+                "resourcePath": "objects\\TradeRoute\\TradeRoute.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -710,7 +734,8 @@
         "d42d94bb-3740-4c9c-9b31-7142387503c9",
         "3637a81f-6784-44a2-ab97-4a5ce30b4353",
         "9c9914aa-f0e0-4dba-bb4a-805e5cd154bd",
-        "383f63c7-262d-411c-8a10-6a3a1116caf1"
+        "383f63c7-262d-411c-8a10-6a3a1116caf1",
+        "7fe3f9a0-ba76-4529-ae6d-fc337617d933"
     ],
     "tutorial": ""
 }

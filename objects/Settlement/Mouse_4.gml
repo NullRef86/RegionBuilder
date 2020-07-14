@@ -16,6 +16,13 @@ if (_isPickedUp)
 }
 else
 {
-	ClearBrush();	
-	_isPickedUp = true;
+	if (IsCurrentBrush(TradeRoute))
+	{
+		_isPartOfTradeRoute = !_isPartOfTradeRoute;
+	}
+	else
+	{
+		ClearBrush();	
+		_isPickedUp = true;
+	}
 }

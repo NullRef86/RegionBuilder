@@ -33,8 +33,8 @@ ds_list_add(
 	" 8 Diamonds: Discover, extend, or elevate a hill",
 	" 9 Diamonds: Discover or extend a mountain",
 	"10 Diamonds: Discover or extend a desert",
-	" J Diamonds: ",
-	" Q Diamonds: ",
+	" J Diamonds: A merchant establishes a market",
+	" Q Diamonds: A trader establishes a trade route",
 	" K Diamonds: ",
 	" A Diamonds: ",
 );

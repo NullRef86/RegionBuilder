@@ -8,10 +8,27 @@ if (mouse_check_button(mb_middle))
 }
 
 // Done deleting if the right mouse button is ever released
-if (mouse_check_button_released(mb_right) && 
-	!global.IsDoneDeleting)
+if (mouse_check_button_released(mb_right))
 {
-	global.IsDoneDeleting = true;
+	if (!global.IsDoneDeleting)
+	{
+		show_debug_message("Setting IsDoneDeleting: true...");
+		global.IsDoneDeleting = true;
+	}
+	
+	show_debug_message("Setting RightClickHandled: false...");
+	global.RightClickHandled = false;	
+}
+
+if (mouse_check_button_pressed(mb_right))
+{	
+	if (!global.RightClickHandled)
+	{
+		show_debug_message("Clearing brush and UI elements...");
+
+		ClearBrush();
+		ClearUiElements();
+	}
 }
 
 if (keyboard_check(vk_control))

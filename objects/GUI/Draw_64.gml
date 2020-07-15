@@ -70,6 +70,10 @@ paletteButtons =
 	[Cliff, $7D7D7D],
 	[Desert, $89C6FD],
 	[0],
+	[Farm, $568EF7],
+	[FarmWheat, $53C4CC, "Farm (Wheat)"],
+	[FarmPasture, $78B83C, "Farm (Past.)"],
+	[0],
 	[Road, $0D41A0],
 	[TradeRoute, $1D94F8]
 ];

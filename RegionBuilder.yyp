@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0a48b72f-0f8f-4ee9-8e6a-dcabada29d34",
+            "Value": {
+                "id": "a557e1c8-ca4f-4499-ba0a-23d173be4730",
+                "resourcePath": "objects\\FarmPasture\\FarmPasture.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a97a783-0d31-47ed-b33f-cc3851b5423e",
             "Value": {
                 "id": "ee910903-ee5b-4653-a42a-31457c94e359",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "9da508ac-5156-41bd-bb0e-0075afb1bf24",
                 "resourcePath": "sprites\\sprite_Coin\\sprite_Coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "19d9b768-fa28-4ccd-8ff7-1d2d4d1cf6df",
+            "Value": {
+                "id": "72a7aa9b-f1d7-47ad-a00e-c71b538f6f23",
+                "resourcePath": "sprites\\sprite_FarmPasture\\sprite_FarmPasture.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -164,6 +180,22 @@
                 "id": "b7730271-bde0-43b3-bdd6-de5ad31084e2",
                 "resourcePath": "views\\2e4fa3b2-e00c-4a45-a324-880ef71d6a1f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "30c5b6c3-e8fe-47de-bab5-ff017f3eebb7",
+            "Value": {
+                "id": "fc7fd1ed-6734-4346-8c86-5baac8ae33be",
+                "resourcePath": "objects\\FarmWheat\\FarmWheat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "34087226-93ec-4aa4-a33c-efda28c221f8",
+            "Value": {
+                "id": "e0777aca-b909-434b-b813-54291dbf2994",
+                "resourcePath": "sprites\\sprite_FarmWheat\\sprite_FarmWheat.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -404,6 +436,14 @@
                 "id": "6579ad29-4a9d-4d8c-9ee5-15f593e0fe12",
                 "resourcePath": "scripts\\CreatePaletteButton\\CreatePaletteButton.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "894c47ca-9e2c-453e-b302-db8675259eff",
+            "Value": {
+                "id": "0443b719-78a6-4bd6-a4d1-29caf94b9c44",
+                "resourcePath": "objects\\Farm\\Farm.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -700,6 +740,14 @@
                 "id": "14a8db14-66c8-4c27-ab98-e017f560a9c2",
                 "resourcePath": "objects\\Tavern\\Tavern.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e91f84c7-a316-46b1-bd74-c0cac4f1c128",
+            "Value": {
+                "id": "840f8494-6302-44e2-861f-fa9cc0d5bf2c",
+                "resourcePath": "sprites\\sprite_Farm\\sprite_Farm.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -73,14 +73,17 @@ paletteButtons =
 	[Farm, $568EF7],
 	[FarmWheat, $53C4CC, "Farm (Wheat)"],
 	[FarmPasture, $78B83C, "Farm (Past.)"],
+	[Watermill, $082966],
+	[Fishery, $082966],
+	[WoodCutter, $082966, "Wood Cutter"],
 	[0],
 	[Road, $0D41A0],
 	[TradeRoute, $1D94F8]
 ];
 
 var startX = 5;
-var startY = 5;
-var currentY = startX;
+var startY = 5 + _scrollPositionY;
+var currentY = startY;
 var buttonHeight = sprite_get_height(sprite_PaletteButton);
 var horizontalSpacing = 5;
 var spacerSize = 10;

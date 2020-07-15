@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0bacd8ea-33e0-49fa-ac43-5e1a09c8c77a",
+            "Value": {
+                "id": "23037a62-59f1-4ca1-8985-9cdf0d95f768",
+                "resourcePath": "objects\\Fishery\\Fishery.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "110605d1-3f6f-4d0e-9729-1896ce4da416",
             "Value": {
                 "id": "9824db67-46fc-4d44-b891-6aed81527e5b",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "6dd2e9e0-3fe3-4697-bdcf-ff41a515afc0",
+            "Value": {
+                "id": "bafbe940-8060-4280-89dc-e6d4fab9f394",
+                "resourcePath": "objects\\Watermill\\Watermill.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "721f51d2-7573-410a-83c3-44332822d02d",
             "Value": {
                 "id": "f98276f4-0203-448e-a066-264322e4ec13",
@@ -396,6 +412,14 @@
                 "id": "67b5fc78-5f91-493e-beeb-4db9a9b37a43",
                 "resourcePath": "objects\\Terrain\\Terrain.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7fd3e9a5-891b-44fc-9114-7c874940523b",
+            "Value": {
+                "id": "899b1450-c99c-445e-a28c-56c740afd748",
+                "resourcePath": "sprites\\sprite_WoodCutter\\sprite_WoodCutter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -436,6 +460,14 @@
                 "id": "6579ad29-4a9d-4d8c-9ee5-15f593e0fe12",
                 "resourcePath": "scripts\\CreatePaletteButton\\CreatePaletteButton.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "84c21b97-eed0-4d53-b0e5-a5e593a78c15",
+            "Value": {
+                "id": "23797696-ee06-4e8f-aa5a-8385be352f71",
+                "resourcePath": "sprites\\sprite_Watermill\\sprite_Watermill.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -675,6 +707,22 @@
             "Value": {
                 "id": "8402998b-1f48-43f5-98f5-2713f8629c00",
                 "resourcePath": "objects\\Shop\\Shop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d687619c-134b-4645-bc58-466fa74e14b3",
+            "Value": {
+                "id": "a600602c-51b3-474d-b4a4-9246d666e3a8",
+                "resourcePath": "sprites\\sprite_Fishery\\sprite_Fishery.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d848dfdb-d469-4c2c-8344-e522306bd062",
+            "Value": {
+                "id": "1d3f060e-2ae7-4970-b1ed-c3963b2fd27f",
+                "resourcePath": "objects\\WoodCutter\\WoodCutter.yy",
                 "resourceType": "GMObject"
             }
         },

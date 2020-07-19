@@ -167,14 +167,6 @@
             }
         },
         {
-            "Key": "1e9fdb65-5fa7-485a-b7a6-9d4a4d3db40f",
-            "Value": {
-                "id": "fbc22d14-b8ca-40d6-8225-8e042326b9b9",
-                "resourcePath": "sprites\\sprite_AnimalProcessing\\sprite_AnimalProcessing.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "20df664b-a260-4a64-967b-302713ec68f5",
             "Value": {
                 "id": "760d1579-f58d-4db9-82db-8100388ab58e",
@@ -415,14 +407,6 @@
             }
         },
         {
-            "Key": "6b218c23-5202-4309-a62f-0111b960415b",
-            "Value": {
-                "id": "91b8689e-8bf2-4c95-86e5-623a410a6e47",
-                "resourcePath": "sprites\\sprite_RepairerYard\\sprite_RepairerYard.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6d78a294-2c74-4f80-b8ef-85f5bff55785",
             "Value": {
                 "id": "f5e9f7e3-340d-4590-ae85-61d340435166",
@@ -455,19 +439,19 @@
             }
         },
         {
+            "Key": "72914677-510f-4b7b-b0ca-6e822baf80e3",
+            "Value": {
+                "id": "4dc42682-5f7a-45a1-9d2f-54e4364ed618",
+                "resourcePath": "sprites\\sprite_Windmill\\sprite_Windmill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7465f33a-622e-49fa-9c1c-d498283da25c",
             "Value": {
                 "id": "b9887e41-85f7-4b43-b53d-3ceb38481837",
                 "resourcePath": "views\\7465f33a-622e-49fa-9c1c-d498283da25c.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "77489308-a43e-40fb-b78f-ecc4c494866f",
-            "Value": {
-                "id": "b4ae786d-cd7d-4d26-bdac-84b3e26f3b00",
-                "resourcePath": "sprites\\sprite_Windmill\\sprite_Windmill.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -628,6 +612,14 @@
                 "id": "67795925-8948-422d-acc9-f7c784537b73",
                 "resourcePath": "views\\ad762389-d370-4a0b-8c18-cfccd0002557.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af3b5b3c-7c71-4f84-ae2d-2a22744cc5e9",
+            "Value": {
+                "id": "76bcf388-27ea-45fd-a87c-e19605b26889",
+                "resourcePath": "sprites\\sprite_AnimalProcessing\\sprite_AnimalProcessing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -836,6 +828,14 @@
                 "id": "c5f27dad-2a58-4242-aab6-21e3064d5903",
                 "resourcePath": "views\\d9fd0bd5-dc10-4008-af92-4cb39ed560a3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dab8944f-ad1b-4b7a-b226-ecbcdb78f26e",
+            "Value": {
+                "id": "cc901d8a-3114-400a-8133-fdcff9cc0b57",
+                "resourcePath": "sprites\\sprite_RepairerYard\\sprite_RepairerYard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

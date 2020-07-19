@@ -12,11 +12,9 @@ if (mouse_check_button_released(mb_right))
 {
 	if (!global.IsDoneDeleting)
 	{
-		show_debug_message("Setting IsDoneDeleting: true...");
 		global.IsDoneDeleting = true;
 	}
 	
-	show_debug_message("Setting RightClickHandled: false...");
 	global.RightClickHandled = false;	
 }
 
@@ -24,14 +22,17 @@ if (mouse_check_button_pressed(mb_right))
 {	
 	if (!global.RightClickHandled)
 	{
-		show_debug_message("Clearing brush and UI elements...");
-
 		ClearBrush();
 		ClearUiElements();
 	}
 }
 
 if (keyboard_check(vk_control))
+{
+	return;	
+}
+
+if (IsOutOfView())
 {
 	return;	
 }

@@ -3,39 +3,55 @@ var startX = 138;
 var startY = 6;
 var verticalSpacing = 20;
 	
-if (_toggleUi)
+switch(_uiMode)
 {
-	outputArray =
-	[
-		//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
-		//"",
-		//"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
-		"Is Done Deleting: " + string(global.IsDoneDeleting == 1 ? "True" : "False"),
-		"",
-		"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),
-		"Building layer count: " + string(array_length_1d(layer_get_all_elements("BuildingLayer"))),
-		"Road layer count: " + string(array_length_1d(layer_get_all_elements("RoadLayer"))),
-		"Terrain layer count: " + string(array_length_1d(layer_get_all_elements("TerrainLayer"))),
-		"Instance count: " + string(instance_count),
-		//"",
-		//"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
-	];
+	case 0:
+		outputArray =
+		[
+			//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
+			//"",
+			//"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
+			"Is Done Deleting: " + string(global.IsDoneDeleting == 1 ? "True" : "False"),
+			"",
+			"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),
+			"Building layer count: " + string(array_length_1d(layer_get_all_elements("BuildingLayer"))),
+			"Road layer count: " + string(array_length_1d(layer_get_all_elements("RoadLayer"))),
+			"Terrain layer count: " + string(array_length_1d(layer_get_all_elements("TerrainLayer"))),
+			"Instance count: " + string(instance_count),
+			//"",
+			//"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
+		];
 
-	for (var i = 0; i < array_length_1d(outputArray); i++;)
-	{
-		draw_text(startX, startY + (verticalSpacing * i), outputArray[i]);
-	}
-}
-else
-{
-	var tempQueue = ds_queue_create();
+		for (var i = 0; i < array_length_1d(outputArray); i++;)
+		{	
+			draw_text(startX, startY + (verticalSpacing * i), outputArray[i]);	
+		}
+		break;
+	case 1:	
+		var tempQueue = ds_queue_create();
 
-	ds_queue_copy(tempQueue, global.DrawDeck);
+		ds_queue_copy(tempQueue, global.DrawDeck);
 
-	for (var i = 0; i < ds_queue_size(global.DrawDeck); i++)
-	{
-		draw_text(startX, startY + (verticalSpacing * i), ds_queue_dequeue(tempQueue));
-	}
+		for (var i = 0; i < ds_queue_size(global.DrawDeck); i++)
+		{
+			draw_text(startX, startY + (verticalSpacing * i), ds_queue_dequeue(tempQueue));
+		}
+		break;
+	case 2:
+		for (var i = 0; i < ds_list_size(global.WallPoints); i++;)
+		{
+			var position = ds_list_find_value(global.WallPoints, i);
+		
+			var text = "Undefined";
+			
+			if (position != undefined)
+			{
+				text = "[" + string(position[0]) + ":" + string(position[1]) + "]";		
+			}
+			
+			draw_text(startX, startY + (verticalSpacing * i), text);
+		}
+		break;
 }
 
 if (global.CurrentAction != undefined)
@@ -76,9 +92,15 @@ paletteButtons =
 	[Watermill, $082966],
 	[Fishery, $082966],
 	[WoodCutter, $082966, "Wood Cutter"],
+	[Quarry, $707070],
+	[Mine, $707070],
+	[LumberYard, $082966, "Lumber Yard"],
+	[Windmill, $082966],
+	[AnimalProcessing, $082966, "Animal Proc."],
+	[RepairerYard, $082966, "Repair Yard"],
 	[0],
 	[Road, $0D41A0],
-	[TradeRoute, $1D94F8]
+	[TradeRoute, $1D94F8, "Trade Route"]
 ];
 
 var startX = 5;

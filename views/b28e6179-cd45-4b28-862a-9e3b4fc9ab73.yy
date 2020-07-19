@@ -19,7 +19,14 @@
         "0a48b72f-0f8f-4ee9-8e6a-dcabada29d34",
         "6dd2e9e0-3fe3-4697-bdcf-ff41a515afc0",
         "0bacd8ea-33e0-49fa-ac43-5e1a09c8c77a",
-        "d848dfdb-d469-4c2c-8344-e522306bd062"
+        "d848dfdb-d469-4c2c-8344-e522306bd062",
+        "ec9c0dfd-32a1-426c-a08d-f235f6622b1e",
+        "03588d23-8390-4879-b00e-4428f6206c32",
+        "0e44e28e-017f-4f71-98cd-72cb4cbe3848",
+        "b3c71515-de90-4c40-9f4d-bd9731110f2a",
+        "cfc89ac0-ccc5-41e5-8bf7-d8e151cec1c2",
+        "e1dbf440-3ff8-4265-bdce-0b5a5c1ebc23",
+        "223923c4-d5b0-4026-ad94-48c807a63168"
     ],
     "filterType": "GMObject",
     "folderName": "Buildings",

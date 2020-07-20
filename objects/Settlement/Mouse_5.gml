@@ -5,7 +5,6 @@ if (keyboard_check(vk_control))
 	return;
 }
 
-show_debug_message("Setting RightClickHandled: true...");
 global.RightClickHandled = true;
 
 if (_isPickedUp)

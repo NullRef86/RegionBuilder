@@ -279,14 +279,6 @@
             }
         },
         {
-            "Key": "47757e1d-f460-4e55-90d4-00bbac060225",
-            "Value": {
-                "id": "09c82ae4-478a-4c84-ad16-e86fa981d333",
-                "resourcePath": "objects\\WallBrush\\WallBrush.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "47d6b729-ebe8-4980-b4a0-27078c8837da",
             "Value": {
                 "id": "64880fea-758d-4157-9d54-64de1aad3bd9",
@@ -959,6 +951,14 @@
             }
         },
         {
+            "Key": "f9938ba6-a779-45e4-8a30-174892545163",
+            "Value": {
+                "id": "ff056755-e42d-49ea-b8ce-fb51efb0a450",
+                "resourcePath": "scripts\\Say\\Say.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa45aa2c-21ff-4bb2-9af8-3525571ef9fa",
             "Value": {
                 "id": "a6757e96-f533-40bd-b590-55110d453942",
@@ -983,7 +983,8 @@
         "3637a81f-6784-44a2-ab97-4a5ce30b4353",
         "9c9914aa-f0e0-4dba-bb4a-805e5cd154bd",
         "383f63c7-262d-411c-8a10-6a3a1116caf1",
-        "7fe3f9a0-ba76-4529-ae6d-fc337617d933"
+        "7fe3f9a0-ba76-4529-ae6d-fc337617d933",
+        "f9938ba6-a779-45e4-8a30-174892545163"
     ],
     "tutorial": ""
 }

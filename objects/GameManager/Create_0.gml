@@ -4,6 +4,7 @@ global.EditingSettlement = undefined;
 global.TemporaryUiElements = [];
 global.CurrentAction = undefined;
 global.IsDoneDeleting = true;
+global.LeftClickHandled = false;
 global.RightClickHandled = false;
 
 SetupDeck();

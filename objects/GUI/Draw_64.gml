@@ -11,7 +11,8 @@ switch(_uiMode)
 			//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
 			//"",
 			//"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
-			"Is Done Deleting: " + string(global.IsDoneDeleting == 1 ? "True" : "False"),
+			//"Is Done Deleting: " + string(global.IsDoneDeleting == 1 ? "True" : "False"),
+			"Current brush: " + string(global.CurrentBrush),
 			"",
 			"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),
 			"Building layer count: " + string(array_length_1d(layer_get_all_elements("BuildingLayer"))),
@@ -63,6 +64,7 @@ draw_sprite(sprite_PaletteBackground, 0, 0, 0);
 
 paletteButtons = 
 [
+	[WallEnd, $912D66],
 	[Settlement, $912D66],
 	[0],
 	[House, $2265F2],

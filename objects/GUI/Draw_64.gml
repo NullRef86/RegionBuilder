@@ -39,19 +39,19 @@ switch(_uiMode)
 		}
 		break;
 	case 2:
-		for (var i = 0; i < ds_list_size(global.WallPoints); i++;)
-		{
-			var position = ds_list_find_value(global.WallPoints, i);
+		//for (var i = 0; i < ds_list_size(global.WallPoints); i++;)
+		//{
+		//	var position = ds_list_find_value(global.WallPoints, i);
 		
-			var text = "Undefined";
+		//	var text = "Undefined";
 			
-			if (position != undefined)
-			{
-				text = "[" + string(position[0]) + ":" + string(position[1]) + "]";		
-			}
+		//	if (position != undefined)
+		//	{
+		//		text = "[" + string(position[0]) + ":" + string(position[1]) + "]";		
+		//	}
 			
-			draw_text(startX, startY + (verticalSpacing * i), text);
-		}
+		//	draw_text(startX, startY + (verticalSpacing * i), text);
+		//}
 		break;
 }
 

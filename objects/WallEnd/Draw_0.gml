@@ -15,14 +15,29 @@ else if (_isRuined)
 	image_blend = c_dkgray;
 }
 
+image_index = _wallLevel -1;
+
 for (var i = 0; i < ds_list_size(_connectedWallEnds); i++;)
 {		
 	var otherWallEnd = ds_list_find_value(_connectedWallEnds, i);
 	
-	var colour = $0D41A0;
-	draw_line_width_color(x, y, otherWallEnd.x, otherWallEnd.y, 5, colour, colour);
+	var a = (otherWallEnd.y - y);
+	var b = (otherWallEnd.x - x);
+	
+	var scaleX = sqrt(sqr(a) + sqr(b)) / 2;
+	
+	var m = a / b;
+	
+	var radians = arctan(m);
+	
+	var degrees = radtodeg(radians) * -1;
+	
+	draw_sprite_ext(sprite_WallMiddle, image_index, x, y, scaleX * (b / abs(b)), 1, degrees, c_white, 1);
 }
 
 draw_self();
 
-draw_text(x, y, id);
+if (keyboard_check(ord("I")))
+{
+	draw_text(x, y, string(id) + " - Lv." + string(_wallLevel));
+}

@@ -27,7 +27,8 @@ if (IsCurrentBrush(WallEnd) && global.CurrentBrush != self)
 	{		
 		// If no wall is in the brush, then we're likely painting anew, so we need to 
 		// attach this to the brush?
-		ds_list_add(global.CurrentBrush._connectedWallEnds, self);		
+		ds_list_add(global.CurrentBrush._connectedWallEnds, self);	
+		ds_list_add(_connectedWallEnds, global.CurrentBrush);		
 	}
 	return;
 }
@@ -58,20 +59,31 @@ if (_isPickedUp)
 		// Set this to be in the building layer
 		layer = layer_get_id("BuildingLayer");		
 	}
-}
-else
-{
-	if (global.CurrentBrush != undefined)
-	{	
-		// Don't want to pick up if painting
-		return;	
-	}
 	
-	ClearBrush();	
-	_isPickedUp = true;
+	return;
 }
 
-//for (var i = 0; i < ds_list_size(_connectedWallEnds); i++;)
-//{
+// Don't want to pick up if painting
+if (global.CurrentBrush != undefined)
+{	
+	return;	
+}
+
+// If Alt is held then we want to upgrade the wall
+if (keyboard_check(vk_alt))
+{
+	var newWallLevel = _wallLevel + 1;
 	
-//}
+	if (newWallLevel > 2)
+	{
+		newWallLevel = 1;	
+	}
+	
+	UpgradeWall(self, newWallLevel);
+	return;
+}
+	
+// If all else fails, clear brush and pick up
+ClearBrush();	
+_isPickedUp = true;
+	

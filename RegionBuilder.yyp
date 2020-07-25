@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0e6c3dfb-c163-4296-9d4a-b8800d0f1cf0",
+            "Value": {
+                "id": "2bdc827d-4918-46f5-ab0e-afc115d64dda",
+                "resourcePath": "objects\\Palace\\Palace.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "110605d1-3f6f-4d0e-9729-1896ce4da416",
             "Value": {
                 "id": "9824db67-46fc-4d44-b891-6aed81527e5b",
@@ -223,6 +231,22 @@
             }
         },
         {
+            "Key": "29955ca5-8c82-4849-a4be-c4ce265a0e5f",
+            "Value": {
+                "id": "0fa7448e-bac2-4ca8-b1a7-fc0a0fc27bcc",
+                "resourcePath": "objects\\Barracks\\Barracks.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2d019641-1155-4f3d-8bbd-adedb0f34022",
+            "Value": {
+                "id": "df16d0d3-dca1-4060-9c6a-baa7cfe8fc76",
+                "resourcePath": "sprites\\sprite_Castle\\sprite_Castle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e4fa3b2-e00c-4a45-a324-880ef71d6a1f",
             "Value": {
                 "id": "b7730271-bde0-43b3-bdd6-de5ad31084e2",
@@ -231,11 +255,27 @@
             }
         },
         {
+            "Key": "2f047c45-2bac-49f8-8d52-f0bb21b2551d",
+            "Value": {
+                "id": "924fc74f-dabf-40b1-a95b-76d210b52077",
+                "resourcePath": "objects\\MeetingHall\\MeetingHall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "30c5b6c3-e8fe-47de-bab5-ff017f3eebb7",
             "Value": {
                 "id": "fc7fd1ed-6734-4346-8c86-5baac8ae33be",
                 "resourcePath": "objects\\FarmWheat\\FarmWheat.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3240aca8-fa21-4589-88f0-2b9e64183d17",
+            "Value": {
+                "id": "a7302228-04a9-44e1-9688-5e58afe47473",
+                "resourcePath": "sprites\\sprite_Barracks\\sprite_Barracks.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,11 +327,27 @@
             }
         },
         {
+            "Key": "3fd355c3-e808-4c6c-870e-6df2053443e1",
+            "Value": {
+                "id": "b45e9348-948f-4bed-b6a4-0c09c04c9b38",
+                "resourcePath": "sprites\\sprite_Weaponsmith\\sprite_Weaponsmith.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47d6b729-ebe8-4980-b4a0-27078c8837da",
             "Value": {
                 "id": "64880fea-758d-4157-9d54-64de1aad3bd9",
                 "resourcePath": "sprites\\sprite_HillsLevel4\\sprite_HillsLevel4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "491d78ca-0a58-4722-9a91-79685f1b9a99",
+            "Value": {
+                "id": "2c2fba48-24f5-4691-80fc-96d4e23f835b",
+                "resourcePath": "objects\\Armoursmith\\Armoursmith.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -343,6 +399,14 @@
             }
         },
         {
+            "Key": "541edf07-8db0-4f2b-8517-f97207b53879",
+            "Value": {
+                "id": "48afdacf-5e30-4588-9a64-557d8cb33694",
+                "resourcePath": "sprites\\sprite_Keep\\sprite_Keep.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "55e7f314-6608-4d48-9f11-e799ca849dc8",
             "Value": {
                 "id": "3b58a714-e70d-4c2f-ac1b-de14b5828341",
@@ -363,6 +427,14 @@
             "Value": {
                 "id": "fb8d1f59-d7c9-441f-9cfc-caa987f4658e",
                 "resourcePath": "objects\\Desert\\Desert.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5dbd85c2-f4ae-412b-a9d0-6034ff44bb3b",
+            "Value": {
+                "id": "0c14f383-4a4b-4021-bcce-691b1887e215",
+                "resourcePath": "objects\\Weaponsmith\\Weaponsmith.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -527,6 +599,14 @@
             }
         },
         {
+            "Key": "8b77fdb4-c8d3-422d-b77d-a74a332d6603",
+            "Value": {
+                "id": "cab6fbc6-2bf9-4cf3-aebb-2d4e1e7b0f9d",
+                "resourcePath": "sprites\\sprite_OutpostTower\\sprite_OutpostTower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d59cbb2-6026-4de2-8d1c-2215570de92b",
             "Value": {
                 "id": "618315a4-2697-4cd5-9299-77f754a73f0e",
@@ -583,6 +663,14 @@
             }
         },
         {
+            "Key": "a08296c3-775d-482a-afbe-1424fa103e2b",
+            "Value": {
+                "id": "ecad9ccf-282e-4c24-b25e-c195607e2be8",
+                "resourcePath": "objects\\OutpostTower\\OutpostTower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a0e42d8d-c120-4ebe-af31-487df397b8e6",
             "Value": {
                 "id": "8eaa0f86-fd8c-4120-93cc-f5955673f22f",
@@ -595,6 +683,14 @@
             "Value": {
                 "id": "1b98e560-bf52-4ff9-b127-166d1e03550b",
                 "resourcePath": "sprites\\sprite_HillsLevel3\\sprite_HillsLevel3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1cc32dc-2fce-4730-8677-42ca76289688",
+            "Value": {
+                "id": "678ccfd7-bc7d-445d-8529-6d775d4e4bc0",
+                "resourcePath": "sprites\\sprite_Armoursmith\\sprite_Armoursmith.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -647,6 +743,14 @@
             }
         },
         {
+            "Key": "b2b217fd-5f02-49d3-9834-50b0c66990e6",
+            "Value": {
+                "id": "5375158b-4b2c-48cf-a1d4-4c6682b5af64",
+                "resourcePath": "sprites\\sprite_MeetingHall\\sprite_MeetingHall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b3c71515-de90-4c40-9f4d-bd9731110f2a",
             "Value": {
                 "id": "f5f8c7a9-c4f7-4c0f-bb89-b641951310b2",
@@ -684,6 +788,14 @@
                 "id": "b428aa87-4293-4418-a895-de08430839de",
                 "resourcePath": "views\\baaaa1bf-5df9-4646-9991-dc67dc945a8a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bb54fce3-235c-44f3-acd4-0d02df5cebaf",
+            "Value": {
+                "id": "5b9e1492-74f1-4ad8-ad69-2c7d8aad1f82",
+                "resourcePath": "objects\\Castle\\Castle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -772,6 +884,14 @@
                 "id": "a946de24-d7ac-4cf4-9e56-b728f03e750a",
                 "resourcePath": "objects\\AnimalProcessing\\AnimalProcessing.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d3bb730d-02bf-4e64-a0c5-a22906784287",
+            "Value": {
+                "id": "7ab7a0e9-1d82-4af5-ac5d-7a99175af4a5",
+                "resourcePath": "sprites\\sprite_Palace\\sprite_Palace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -900,6 +1020,14 @@
                 "id": "1b639e82-aa13-4272-943b-adef99f0d48e",
                 "resourcePath": "views\\e2b4672d-6e43-494e-b96f-1018c5cef38e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e7d65856-2270-4f85-be87-4753ad568aa1",
+            "Value": {
+                "id": "ca8ce23f-d375-4546-92b1-634e86afe5e3",
+                "resourcePath": "objects\\Keep\\Keep.yy",
+                "resourceType": "GMObject"
             }
         },
         {

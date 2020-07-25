@@ -54,17 +54,17 @@ ds_list_add(
 	
 	" 2 Clubs: Build or upgrade a wall",
 	" 3 Clubs: Build or upgrade an outpost tower",
-	" 4 Clubs: ",
-	" 5 Clubs: ",
-	" 6 Clubs: ",
-	" 7 Clubs: ",
-	" 8 Clubs: ",
-	" 9 Clubs: ",
-	"10 Clubs: ",
-	" J Clubs: ",
-	" Q Clubs: ",
-	" K Clubs: ",
-	" A Clubs: ",
+	" 4 Clubs: Add a military building",
+	" 5 Clubs: Build a weaponsmith",
+	" 6 Clubs: Build an armoursmith",
+	" 7 Clubs: Border skirmish",
+	" 8 Clubs: Light invasion",
+	" 9 Clubs: Medium invasion",
+	"10 Clubs: Heavy seige",
+	" J Clubs: Add a meeting hall",
+	" Q Clubs: Add a keep",
+	" K Clubs: Add a castle",
+	" A Clubs: Add a palace",
 );
 
 //ds_list_shuffle(allCards);

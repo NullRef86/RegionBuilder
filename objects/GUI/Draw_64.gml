@@ -64,7 +64,17 @@ draw_sprite(sprite_PaletteBackground, 0, 0, 0);
 
 paletteButtons = 
 [
-	[WallEnd, $912D66],
+	[WallEnd, $082966, "Wall"],
+	[OutpostTower, $082966, "Outpost Twr."],
+	[Barracks, $082966],
+	[Weaponsmith, $082966],
+	[Armoursmith, $082966],
+	[MeetingHall, $082966],
+	[Keep, $707070],
+	[Castle, $707070],
+	[Palace, $912D66],
+	
+	[0],
 	[Settlement, $912D66],
 	[0],
 	[House, $2265F2],
@@ -102,7 +112,7 @@ paletteButtons =
 	[RepairerYard, $082966, "Repair Yard"],
 	[0],
 	[Road, $0D41A0],
-	[TradeRoute, $1D94F8, "Trade Route"]
+	[TradeRoute, $1D94F8, "Trade Route"],
 ];
 
 var startX = 5;

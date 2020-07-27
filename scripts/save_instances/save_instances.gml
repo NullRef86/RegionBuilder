@@ -2,7 +2,7 @@ var list = ds_list_create();
 
 with (all)
 {
-	if (ds_map_exists(global.save_map, object_index)) 
+	if (ds_map_exists(global.save_map, object_index))
 	{
 		var map = instance_get_save_map(id);
 		ds_list_add(list, map);

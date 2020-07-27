@@ -10,15 +10,15 @@ global.LeftClickHandled = true;
 if (IsCurrentBrush(WallEnd) && global.CurrentBrush != self)
 {
 	// Get current brushes connected wall (I'm going to assume only one for now)...
-	var connectedWall = ds_list_find_value(global.CurrentBrush._connectedWallEnds, 0);
+	var connectedWall = GetWallEndByUuid(global.CurrentBrush._connectionUuids[|0]);
 
 	if (connectedWall != undefined)
 	{
 		// Add that connected wall to this wall
-		ds_list_add(_connectedWallEnds, connectedWall);
+		ds_list_add(_connectionUuids, connectedWall._uuid);
 	
 		// And also, make sure the other wall is connected to this
-		ds_list_add(connectedWall._connectedWallEnds, self);
+		ds_list_add(connectedWall._connectionUuids, _uuid);
 	
 		// Clear the brush
 		ClearBrush();
@@ -27,8 +27,8 @@ if (IsCurrentBrush(WallEnd) && global.CurrentBrush != self)
 	{		
 		// If no wall is in the brush, then we're likely painting anew, so we need to 
 		// attach this to the brush?
-		ds_list_add(global.CurrentBrush._connectedWallEnds, self);	
-		ds_list_add(_connectedWallEnds, global.CurrentBrush);		
+		ds_list_add(global.CurrentBrush._connectionUuids, _uuid);	
+		ds_list_add(_connectionUuids, global.CurrentBrush._uuid);		
 	}
 	return;
 }
@@ -49,10 +49,10 @@ if (_isPickedUp)
 		}		
 		
 		// Add this wall end to the new one
-		ds_list_add(wallEnd._connectedWallEnds, self);
+		ds_list_add(wallEnd._connectionUuids, _uuid);
 		
 		// Add the new wall end to this wall ends connected
-		ds_list_add(_connectedWallEnds, wallEnd);
+		ds_list_add(_connectionUuids, wallEnd._uuid);
 		
 		global.CurrentBrush = wallEnd;
 		
@@ -79,7 +79,7 @@ if (keyboard_check(vk_alt))
 		newWallLevel = 1;	
 	}
 	
-	UpgradeWall(self, newWallLevel);
+	UpgradeWall(_uuid, newWallLevel);
 	return;
 }
 	

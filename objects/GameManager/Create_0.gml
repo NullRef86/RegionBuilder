@@ -7,6 +7,8 @@ global.IsDoneDeleting = true;
 global.LeftClickHandled = false;
 global.RightClickHandled = false;
 
+randomize();
+
 SetupDeck();
 
 zoom_level = 1;

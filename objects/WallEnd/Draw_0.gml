@@ -17,9 +17,9 @@ else if (_isRuined)
 
 image_index = _wallLevel -1;
 
-for (var i = 0; i < ds_list_size(_connectedWallEnds); i++;)
+for (var i = 0; i < ds_list_size(_connectionUuids); i++;)
 {		
-	var otherWallEnd = ds_list_find_value(_connectedWallEnds, i);
+	var otherWallEnd = GetWallEndByUuid(_connectionUuids[|i]);
 	
 	var a = (otherWallEnd.y - y);
 	var b = (otherWallEnd.x - x);
@@ -39,5 +39,5 @@ draw_self();
 
 if (keyboard_check(ord("I")))
 {
-	draw_text(x, y, string(id) + " - Lv." + string(_wallLevel));
+	draw_text(x, y, _uuid);
 }

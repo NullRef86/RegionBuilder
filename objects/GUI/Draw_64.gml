@@ -1,4 +1,7 @@
 // @desc
+
+draw_text(700, 5, "FPS = " + string(fps));
+
 var startX = 138;
 var startY = 6;
 var verticalSpacing = 20;

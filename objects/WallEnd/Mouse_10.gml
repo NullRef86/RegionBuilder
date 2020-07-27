@@ -1,15 +1,15 @@
-/// @desc ???
-show_debug_message("");
-show_debug_message("Checking for " + string(id) + " (" + string(ds_list_size(_connectedWallEnds)) + ")...");
+///// @desc ???
+//show_debug_message("");
+//show_debug_message("Checking for " + string(id) + " (" + string(ds_list_size(_connectionUuids)) + ")...");
 	
 _isHovered = true;
 	
-for (var i = 0; i < ds_list_size(_connectedWallEnds); i++;)
-{
-	var otherWallEnd = ds_list_find_value(_connectedWallEnds, i);
+//for (var i = 0; i < ds_list_size(_connectionUuids); i++;)
+//{
+//	var otherWallEnd = GetWallEndByUuid(_connectionUuids[|i]);
 			
-	var text = "[" + string(otherWallEnd.x) + ":" + string(otherWallEnd.y) + "]";	
+//	var text = "[" + string(otherWallEnd.x) + ":" + string(otherWallEnd.y) + "]";	
 		
-	show_debug_message("- next to " + string(otherWallEnd.id));
-}
+//	show_debug_message("- next to " + string(otherWallEnd.id));
+//}
 	

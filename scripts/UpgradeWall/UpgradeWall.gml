@@ -1,5 +1,5 @@
 
-var currentWallEnd = argument[0];
+var currentWallEnd = GetWallEndByUuid(argument[0]);
 var newWallLevel = argument[1];
 
 if (currentWallEnd._wallLevel == newWallLevel)
@@ -11,7 +11,7 @@ if (currentWallEnd._wallLevel == newWallLevel)
 
 currentWallEnd._wallLevel = newWallLevel;
 
-for (var i = 0; i < ds_list_size(currentWallEnd._connectedWallEnds); i++;)
+for (var i = 0; i < ds_list_size(currentWallEnd._connectionUuids); i++;)
 {
-	UpgradeWall(currentWallEnd._connectedWallEnds[|i], newWallLevel);
+	UpgradeWall(currentWallEnd._connectionUuids[|i], newWallLevel);
 }

@@ -11,6 +11,8 @@ randomize();
 
 SetupDeck();
 
+LoadGame();
+
 zoom_level = 1;
 
 //Get the starting view size to be used for interpolation later

@@ -1,8 +1,8 @@
 {
-    "id": "514b08b2-b8f6-4be3-b578-1fda3b7768ac",
+    "id": "4fd834ab-b708-4fbe-b095-d10c53e627fb",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "save_map_get_instance",
+    "name": "AddMapForChildrenOf",
     "IsCompatibility": false,
     "IsDnD": false
 }

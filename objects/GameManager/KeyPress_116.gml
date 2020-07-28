@@ -1,5 +1,5 @@
 /// @desc Save game
 
-var filename = get_string("Please enter a save file name:", ".region");
+var filename = get_string("Please enter a save file name:", ".json");
 
-game_save(filename);
+SaveGame(filename);

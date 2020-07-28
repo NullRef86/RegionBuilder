@@ -1,8 +1,8 @@
 {
-    "id": "55bb8d12-e111-43ee-b886-369f916971e4",
+    "id": "cbb91920-51f3-4657-8a97-05615a8558e9",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "save_instances",
+    "name": "SaveGame",
     "IsCompatibility": false,
     "IsDnD": false
 }

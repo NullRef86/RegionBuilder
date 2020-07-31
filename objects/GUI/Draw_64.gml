@@ -67,18 +67,18 @@ draw_sprite(sprite_PaletteBackground, 0, 0, 0);
 
 paletteButtons = 
 [
+	[Road, $0D41A0],
+	[0],
 	[WallEnd, $082966, "Wall"],
 	[OutpostTower, $082966, "Outpost Twr."],
 	[Barracks, $082966],
 	[Weaponsmith, $082966],
 	[Armoursmith, $082966],
+	[Barracks, $082966],
 	[MeetingHall, $082966],
 	[Keep, $707070],
 	[Castle, $707070],
-	[Palace, $912D66],
-	
-	[0],
-	[Settlement, $912D66],
+	[Palace, $912D66],	
 	[0],
 	[House, $2265F2],
 	[Chapel, $2265F2],
@@ -114,7 +114,7 @@ paletteButtons =
 	[AnimalProcessing, $082966, "Animal Proc."],
 	[RepairerYard, $082966, "Repair Yard"],
 	[0],
-	[Road, $0D41A0],
+	[Settlement, $912D66],
 	[TradeRoute, $1D94F8, "Trade Route"],
 ];
 

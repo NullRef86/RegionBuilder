@@ -1,4 +1,4 @@
-var filename = "_Default.json";
+var filename = global.CurrentSave;
 
 if (argument_count > 0)
 {
@@ -7,6 +7,12 @@ if (argument_count > 0)
 
 var json = "";
 var file = file_text_open_read(filename);
+
+if (file == -1)
+{
+	return;	
+}
+
 while (!file_text_eof(file))
 {
 	json += file_text_readln(file);

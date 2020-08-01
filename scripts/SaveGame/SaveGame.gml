@@ -1,4 +1,4 @@
-var filename = "_Default.json";
+var filename = global.CurrentSave;
 
 if (argument_count > 0)
 {

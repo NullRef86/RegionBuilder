@@ -1,22 +1,118 @@
 // @desc
 
-draw_text(700, 5, "FPS = " + string(fps));
-
+var viewportPadding = 6;
 var startX = 138;
-var startY = 6;
+var startY = viewportPadding;
 var verticalSpacing = 20;
 	
 switch(_uiMode)
 {
 	case 0:
+		//outputArray =
+		//[
+		//	//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
+		//	//"",
+		//	//"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
+		//	//"Is Done Deleting: " + string(global.IsDoneDeleting == 1 ? "True" : "False"),
+		//	"Current brush: " + string(global.CurrentBrush),
+		//	"",
+		//	"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),
+		//	"Building layer count: " + string(array_length_1d(layer_get_all_elements("BuildingLayer"))),
+		//	"Road layer count: " + string(array_length_1d(layer_get_all_elements("RoadLayer"))),
+		//	"Terrain layer count: " + string(array_length_1d(layer_get_all_elements("TerrainLayer"))),
+		//	"Instance count: " + string(instance_count),
+		//	//"",
+		//	//"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
+		//];
+
+		//for (var i = 0; i < array_length_1d(outputArray); i++;)
+		//{	
+		//	draw_text(startX, startY + (verticalSpacing * i), outputArray[i]);	
+		//}
+		//break;
+	case 1:	
+		//var tempQueue = ds_queue_create();
+
+		//ds_queue_copy(tempQueue, global.DrawDeck);
+
+		var currentY = startY;		
+		var currentX = startX;
+
+		draw_text(currentX, currentY, "Draw Deck");
+		currentY += verticalSpacing;
+		draw_text(currentX, currentY, "-------------------------------");
+		currentY += verticalSpacing;
+		
+		for (var i = 0; i < 1; i++)
+		{
+			var card = global.DrawDeck[|i];
+			
+			draw_set_color(GetSuitColour(card));
+			draw_set_halign(fa_right);
+			draw_text(currentX + 50, currentY, card._value);		
+			draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
+			draw_set_halign(fa_left);		
+			draw_set_color(c_white);
+			draw_text(currentX + 75, currentY, "- " + card._action);
+			currentY += verticalSpacing;
+		}
+		
+		currentY = startY;		
+		currentX = view_wport[0] - (view_wport[0] / 2) - 100;
+		
+		draw_text(currentX, currentY, "Discard Pile");
+		currentY += verticalSpacing;
+		draw_text(currentX, currentY, "-------------------------------");
+		currentY += verticalSpacing;
+		
+		for (var i = ds_list_size(global.DiscardPile) - 1; i >= 0; i--)
+		{
+			var card = global.DiscardPile[|i];
+			
+			draw_set_halign(fa_right);
+			draw_set_color(GetSuitColour(card));
+			draw_text(currentX + 50, currentY, card._value);
+			draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
+			draw_set_color(c_white);
+			draw_set_halign(fa_left);	
+			draw_text(currentX + 75, currentY, "- " + card._action);
+			currentY += verticalSpacing;
+		}	
+		
+		currentY = startY;		
+		currentX = view_wport[0] - 175;
+		
+		draw_set_halign(fa_center);
+		draw_text(currentX, currentY, "In Hand");
+		currentY += verticalSpacing;
+		draw_text(currentX, currentY, "-------------------------------");
+		draw_set_halign(fa_left);
+		currentY += verticalSpacing;
+		
+		for (var i = 0; i < ds_list_size(global.Hand); i++)
+		{
+			var card = global.Hand[|i];
+			
+			draw_set_halign(fa_right);
+			draw_text(currentX - 25, currentY, card._character);
+			draw_set_color(GetSuitColour(card));
+			draw_text(currentX + 50, currentY, card._value);	
+			draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);			
+			draw_set_color(c_white);
+			currentY += verticalSpacing;
+		}	
+		
+		draw_set_halign(fa_left);	
+		
+		
 		outputArray =
 		[
 			//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
 			//"",
 			//"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
 			//"Is Done Deleting: " + string(global.IsDoneDeleting == 1 ? "True" : "False"),
-			"Current brush: " + string(global.CurrentBrush),
-			"",
+			//"Current brush: " + string(global.CurrentBrush),
+			//"",
 			"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),
 			"Building layer count: " + string(array_length_1d(layer_get_all_elements("BuildingLayer"))),
 			"Road layer count: " + string(array_length_1d(layer_get_all_elements("RoadLayer"))),
@@ -26,20 +122,23 @@ switch(_uiMode)
 			//"Temp UI count: " + string(array_length_1d(global.TemporaryUiElements))
 		];
 
-		for (var i = 0; i < array_length_1d(outputArray); i++;)
+		currentY = view_hport[0] - viewportPadding;
+
+		var count = 0;
+
+		draw_set_valign(fa_bottom);
+		for (var i = array_length_1d(outputArray) - 1; i >= 0; i--)
 		{	
-			draw_text(startX, startY + (verticalSpacing * i), outputArray[i]);	
+			draw_text(startX, currentY - (verticalSpacing * count), outputArray[i]);	
+			count++;
 		}
-		break;
-	case 1:	
-		var tempQueue = ds_queue_create();
+		
+		draw_set_halign(fa_right);
+		draw_text(view_wport[0] - viewportPadding, view_hport[0] - viewportPadding, "FPS: " + string(fps));
+		draw_set_halign(fa_left);
 
-		ds_queue_copy(tempQueue, global.DrawDeck);
-
-		for (var i = 0; i < ds_queue_size(global.DrawDeck); i++)
-		{
-			draw_text(startX, startY + (verticalSpacing * i), ds_queue_dequeue(tempQueue));
-		}
+		draw_set_valign(fa_top);
+		
 		break;
 	case 2:
 		//for (var i = 0; i < ds_list_size(global.WallPoints); i++;)

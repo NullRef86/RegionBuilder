@@ -1,10 +1,3 @@
-/// @description DrawCard()
-/// @function DrawCard
-//
-// [TODO]
-var currentCard = ds_queue_dequeue(global.DrawDeck);
-
-global.CurrentAction = currentCard;
-
-ds_stack_push(global.DiscardPile, currentCard);
-
+var currentCard = global.DrawDeck[|0];
+ds_list_delete(global.DrawDeck, 0);
+return currentCard;

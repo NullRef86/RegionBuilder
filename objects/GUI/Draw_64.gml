@@ -38,7 +38,7 @@ switch(_uiMode)
 		var currentY = startY;		
 		var currentX = startX;
 
-		draw_text(currentX, currentY, "Draw Deck");
+		draw_text(currentX, currentY, "Draw Deck - "  + string(ds_list_size(global.DrawDeck) - 1) + " left");
 		currentY += verticalSpacing;
 		draw_text(currentX, currentY, "-------------------------------");
 		currentY += verticalSpacing;

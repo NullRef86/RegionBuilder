@@ -36,46 +36,46 @@ switch(_uiMode)
 		var currentY = startY;		
 		var currentX = startX;
 
-		draw_text(currentX, currentY, "Draw Deck - "  + string(ds_list_size(global.DrawDeck) - 1) + " left");
-		currentY += verticalSpacing;
-		draw_text(currentX, currentY, "-------------------------------");
-		currentY += verticalSpacing;
+		//draw_text(currentX + 20, currentY, "Draw Deck - "  + string(ds_list_size(global.DrawDeck) - 1) + " left");
+		//currentY += verticalSpacing;
+		//draw_text(currentX, currentY, "-------------------------------");
+		//currentY += verticalSpacing;
 		
-		for (var i = 0; i < ds_list_size(global.DrawDeck); i++)
-		{
-			var card = global.DrawDeck[|i];
+		//for (var i = 0; i < ds_list_size(global.DrawDeck); i++)
+		//{
+		//	var card = global.DrawDeck[|i];
 			
-			draw_set_color(GetSuitColour(card));
-			draw_set_halign(fa_right);
-			draw_text(currentX + 50, currentY, card._value);		
-			draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
-			draw_set_halign(fa_left);		
-			draw_set_color(c_white);
-			//draw_text(currentX + 75, currentY, "- " + card._action);
-			currentY += verticalSpacing;
-		}
+		//	draw_set_color(GetSuitColour(card));
+		//	draw_set_halign(fa_right);
+		//	draw_text(currentX + 50, currentY, card._value);		
+		//	draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
+		//	draw_set_halign(fa_left);		
+		//	draw_set_color(c_white);
+		//	//draw_text(currentX + 75, currentY, "- " + card._action);
+		//	currentY += verticalSpacing;
+		//}
 		
 		currentY = startY;		
 		currentX = view_wport[0] - (view_wport[0] / 2) - 100;
 		
-		draw_text(currentX, currentY, "Discard Pile");
-		currentY += verticalSpacing;
-		draw_text(currentX, currentY, "-------------------------------");
-		currentY += verticalSpacing;
+		//draw_text(currentX + 20, currentY, "Discard Pile");
+		//currentY += verticalSpacing;
+		//draw_text(currentX, currentY, "-------------------------------");
+		//currentY += verticalSpacing;
 		
-		for (var i = ds_list_size(global.DiscardPile) - 1; i >= 0; i--)
-		{
-			var card = global.DiscardPile[|i];
+		//for (var i = ds_list_size(global.DiscardPile) - 1; i >= 0; i--)
+		//{
+		//	var card = global.DiscardPile[|i];
 			
-			draw_set_halign(fa_right);
-			draw_set_color(GetSuitColour(card));
-			draw_text(currentX + 50, currentY, card._value);
-			draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
-			draw_set_color(c_white);
-			draw_set_halign(fa_left);	
-			//draw_text(currentX + 75, currentY, "- " + card._action);
-			currentY += verticalSpacing;
-		}	
+		//	draw_set_halign(fa_right);
+		//	draw_set_color(GetSuitColour(card));
+		//	draw_text(currentX + 50, currentY, card._value);
+		//	draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
+		//	draw_set_color(c_white);
+		//	draw_set_halign(fa_left);	
+		//	//draw_text(currentX + 75, currentY, "- " + card._action);
+		//	currentY += verticalSpacing;
+		//}	
 		
 		//currentY = startY;		
 		//currentX = view_wport[0] - 175;

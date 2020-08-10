@@ -15,6 +15,7 @@ if (_isPickedUp)
 	var mouseY = device_mouse_y_to_gui(0);
 	x = mouseX - (sprite_get_width(sprite_Card) / 2);
 	y = mouseY - (sprite_get_height(sprite_Card) / 2);
+	depth = 0;
 }
 
 // Is the mouse on the deck?
@@ -37,12 +38,12 @@ else
 	
 if (mouse_check_button_pressed(mb_left))
 {
-	Say(id, "Clicked");
 	_isPickedUp = true;
 }
 if (mouse_check_button_released(mb_left))
 {
 	_isPickedUp = false;
+	depth = 1;
 
 	var offscreenPosition = -100;
 

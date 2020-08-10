@@ -12,4 +12,4 @@
 
 //ds_list_add(global.Hand, card);
 
-//RecycleDeck();
+RecycleDeck();

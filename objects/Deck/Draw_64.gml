@@ -2,6 +2,10 @@
 
 var deckSize = ds_list_size(_cardList);
 
+draw_set_halign(fa_center);
+draw_text(x + (sprite_get_width(sprite_Card) / 2), y - 25, _name);
+draw_set_halign(fa_left);
+
 if (deckSize == 0)
 {
 	draw_sprite(sprite_Card, 3, x, y);
@@ -10,6 +14,12 @@ if (deckSize == 0)
 
 var verticalSpacing = 2;
 var currentY = y + (verticalSpacing * (deckSize - 1));
+
+draw_set_halign(fa_center);
+draw_set_color(c_gray);
+draw_text(x + (sprite_get_width(sprite_Card) / 2), currentY + sprite_get_height(sprite_Card) + 5, "(" + string(ds_list_size(_cardList)) + ")");
+draw_set_color(c_white);
+draw_set_halign(fa_left);
 
 for (var i = deckSize - 2; i >= 0; i--)
 {
@@ -31,6 +41,5 @@ if (_drawFaceDown)
 }
 else
 {
-	Say(id, "I should be painting a card...");
 	PaintCard(x, y, _cardList[|0]);
 }

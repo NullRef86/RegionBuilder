@@ -1,5 +1,7 @@
 // @desc
 
+draw_set_font(FontUI);
+
 var viewportPadding = 6;
 var startX = 138;
 var startY = viewportPadding;
@@ -31,10 +33,6 @@ switch(_uiMode)
 		//}
 		//break;
 	case 1:	
-		//var tempQueue = ds_queue_create();
-
-		//ds_queue_copy(tempQueue, global.DrawDeck);
-
 		var currentY = startY;		
 		var currentX = startX;
 
@@ -43,7 +41,7 @@ switch(_uiMode)
 		draw_text(currentX, currentY, "-------------------------------");
 		currentY += verticalSpacing;
 		
-		for (var i = 0; i < 1; i++)
+		for (var i = 0; i < ds_list_size(global.DrawDeck); i++)
 		{
 			var card = global.DrawDeck[|i];
 			
@@ -53,7 +51,7 @@ switch(_uiMode)
 			draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
 			draw_set_halign(fa_left);		
 			draw_set_color(c_white);
-			draw_text(currentX + 75, currentY, "- " + card._action);
+			//draw_text(currentX + 75, currentY, "- " + card._action);
 			currentY += verticalSpacing;
 		}
 		
@@ -75,42 +73,41 @@ switch(_uiMode)
 			draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
 			draw_set_color(c_white);
 			draw_set_halign(fa_left);	
-			draw_text(currentX + 75, currentY, "- " + card._action);
+			//draw_text(currentX + 75, currentY, "- " + card._action);
 			currentY += verticalSpacing;
 		}	
 		
-		currentY = startY;		
-		currentX = view_wport[0] - 175;
+		//currentY = startY;		
+		//currentX = view_wport[0] - 175;
 		
-		draw_set_halign(fa_center);
-		draw_text(currentX, currentY, "In Hand");
-		currentY += verticalSpacing;
-		draw_text(currentX, currentY, "-------------------------------");
-		draw_set_halign(fa_left);
-		currentY += verticalSpacing;
+		//draw_set_halign(fa_center);
+		//draw_text(currentX, currentY, "In Hand");
+		//currentY += verticalSpacing;
+		//draw_text(currentX, currentY, "-------------------------------");
+		//draw_set_halign(fa_left);
+		//currentY += verticalSpacing;
 		
-		for (var i = 0; i < ds_list_size(global.Hand); i++)
-		{
-			var card = global.Hand[|i];
+		//for (var i = 0; i < ds_list_size(global.Hand); i++)
+		//{
+		//	var card = global.Hand[|i];
 			
-			draw_set_halign(fa_right);
-			draw_text(currentX - 25, currentY, card._character);
-			draw_set_color(GetSuitColour(card));
-			draw_text(currentX + 50, currentY, card._value);	
-			draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);			
-			draw_set_color(c_white);
-			currentY += verticalSpacing;
-		}	
+		//	draw_set_halign(fa_right);
+		//	draw_text(currentX - 25, currentY, card._character);
+		//	draw_set_color(GetSuitColour(card));
+		//	draw_text(currentX + 50, currentY, card._value);	
+		//	draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);			
+		//	draw_set_color(c_white);
+		//	currentY += verticalSpacing;
+		//}	
 		
-		draw_set_halign(fa_left);	
-		
+		draw_set_halign(fa_left);			
 		
 		outputArray =
 		[
 			//"Mouse position: [" + string(device_mouse_x_to_gui(0)) + ":" + string(device_mouse_y_to_gui(0)) + "]",
 			//"",
 			//"Is Painting: " + string(global.CurrentBrush != undefined ? "True" : "False"),
-			//"Is Done Deleting: " + string(global.IsDoneDeleting == 1 ? "True" : "False"),
+			"Is Left Click Handled?: " + string(global.LeftClickHandled == 1 ? "True" : "False"),
 			//"Current brush: " + string(global.CurrentBrush),
 			//"",
 			"Brush layer count: " + string(array_length_1d(layer_get_all_elements("BrushLayer"))),

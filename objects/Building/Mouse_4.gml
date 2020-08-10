@@ -1,5 +1,7 @@
 /// @desc Pick-up or Drop / Paint
-if (IsOutOfView())
+;
+
+if (IsOutOfView() || GetTopMostInstance() != self)
 {
 	return;	
 }

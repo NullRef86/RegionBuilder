@@ -95,6 +95,30 @@
             }
         },
         {
+            "Key": "0bec81e6-b246-4e9c-9fe3-4606f4cf256f",
+            "Value": {
+                "id": "fd6d3f4e-9153-49c6-9d26-6d3b21a00eb4",
+                "resourcePath": "objects\\DiscardPile\\DiscardPile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0ccd4b7b-28b6-411e-9953-7aebf255ef56",
+            "Value": {
+                "id": "10ec8d4b-2a4a-4d60-b2fe-90b2dd722491",
+                "resourcePath": "fonts\\FontCard\\FontCard.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "0d39de73-dfe3-414a-8cbb-62466e884b99",
+            "Value": {
+                "id": "7df4b800-5364-42f4-834d-d82b4021e352",
+                "resourcePath": "objects\\Deck\\Deck.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e0721ec-1229-470c-891b-fdfe3ece44e8",
             "Value": {
                 "id": "9482f098-c238-4fdc-9de8-471c81ecb6ce",
@@ -775,6 +799,14 @@
             }
         },
         {
+            "Key": "693ad423-7dc4-42f6-af2d-fb58963ad45b",
+            "Value": {
+                "id": "9c945536-69db-4c94-8a68-5f7dee9751f3",
+                "resourcePath": "objects\\DrawDeck\\DrawDeck.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6b4a4856-4c86-42d1-9f8a-e80462e4fc7c",
             "Value": {
                 "id": "f11109b0-8807-4464-8109-daed4088e987",
@@ -812,6 +844,14 @@
                 "id": "bafbe940-8060-4280-89dc-e6d4fab9f394",
                 "resourcePath": "objects\\Watermill\\Watermill.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "710b6d44-642f-4c16-949b-0118f8e9c022",
+            "Value": {
+                "id": "e2f1c630-2667-4f90-a560-43f01dde212c",
+                "resourcePath": "scripts\\xxxGetTopMostInstance\\xxxGetTopMostInstance.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1044,6 +1084,14 @@
                 "id": "ff941348-3634-460f-bb6d-96956b60bf5d",
                 "resourcePath": "objects\\SpadesJack\\SpadesJack.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90125c4f-7d47-4f47-be74-77b94bbffbb3",
+            "Value": {
+                "id": "ff8cb7b1-13c5-4d7e-8157-71ec0cadeff1",
+                "resourcePath": "scripts\\PaintCard\\PaintCard.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1292,6 +1340,14 @@
                 "id": "5b9e1492-74f1-4ad8-ad69-2c7d8aad1f82",
                 "resourcePath": "objects\\Castle\\Castle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bbd6088e-9c50-4043-a1b2-68c87e617546",
+            "Value": {
+                "id": "95f6d6d6-c72b-4dd9-a5db-295f09dcd230",
+                "resourcePath": "views\\bbd6088e-9c50-4043-a1b2-68c87e617546.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1793,13 +1849,15 @@
         "4fd834ab-b708-4fbe-b095-d10c53e627fb",
         "4bc2f056-54d4-4538-b80e-4fb80669a6f2",
         "f9938ba6-a779-45e4-8a30-174892545163",
+        "710b6d44-642f-4c16-949b-0118f8e9c022",
         "9c9914aa-f0e0-4dba-bb4a-805e5cd154bd",
         "cae4f680-098e-464a-97bb-5d0a12802065",
         "854258bb-aa47-43ae-befa-73b1ae7e5f57",
         "dfea719d-31a3-49de-9fb6-86f40d1665c0",
         "68456ea4-e0fa-4eab-831d-126c21c8f000",
         "ed84ca4f-43ce-417f-9e28-d6310c5e60da",
-        "416428e6-ac4a-4ed1-a8b6-7c9c7f20f42b"
+        "416428e6-ac4a-4ed1-a8b6-7c9c7f20f42b",
+        "90125c4f-7d47-4f47-be74-77b94bbffbb3"
     ],
     "tutorial": ""
 }

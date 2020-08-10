@@ -1,0 +1,1 @@
+PaintCard(x, y, self);

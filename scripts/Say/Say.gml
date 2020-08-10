@@ -1,1 +1,1 @@
-show_debug_message(string(argument[0]) + ": '" + string(argument[1]) + "'");
+show_debug_message(string(argument[0]) + " (" + object_get_name(argument[0].object_index) + "): '" + string(argument[1]) + "'");

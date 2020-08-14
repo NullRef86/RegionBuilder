@@ -10,7 +10,7 @@ var file = file_text_open_read(filename);
 
 if (file == -1)
 {
-	return;	
+	return false;	
 }
 
 while (!file_text_eof(file))
@@ -22,3 +22,5 @@ file_text_close(file);
 LoadObjectsFromJson(json);
 
 show_debug_message("Loaded '" + filename + "'...");
+
+return true;

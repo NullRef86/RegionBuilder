@@ -17,9 +17,10 @@ global.Hand = ds_list_create();
 
 randomize();
 
-SetupDeck();
-
-LoadGame();
+if (!LoadGame())
+{
+	SetupDeck();
+}
 
 zoom_level = 1;
 

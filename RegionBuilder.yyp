@@ -967,6 +967,14 @@
             }
         },
         {
+            "Key": "80c9c807-7b6e-415b-a8bf-6083c51a58ed",
+            "Value": {
+                "id": "94d802ec-476d-4c39-81a7-38de9e914f14",
+                "resourcePath": "scripts\\SerialiseCardList\\SerialiseCardList.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "81358abc-72bb-46c0-b79f-b61b0bf80086",
             "Value": {
                 "id": "d4e307cc-9721-4716-9a07-1e5dfcb3441d",
@@ -1148,6 +1156,14 @@
                 "id": "4d24daf4-928e-47e2-83cb-5f7657f90175",
                 "resourcePath": "objects\\Academy\\Academy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9794c241-4ca6-4186-a489-cb14327a6773",
+            "Value": {
+                "id": "abf74384-93a4-427d-9ae7-aa8a37cc55b5",
+                "resourcePath": "scripts\\DeserialiseCardList\\DeserialiseCardList.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1843,10 +1859,12 @@
         "cbb91920-51f3-4657-8a97-05615a8558e9",
         "4dcc26e4-cc9a-4b39-b474-20dbfa8d33c5",
         "55bb8d12-e111-43ee-b886-369f916971e4",
+        "80c9c807-7b6e-415b-a8bf-6083c51a58ed",
         "84cde8dd-4b0b-4d5b-bdcc-60fc49ac0d52",
         "eeffcaa6-3451-47c6-a60e-d57a88701f8a",
         "514b08b2-b8f6-4be3-b578-1fda3b7768ac",
         "4fd834ab-b708-4fbe-b095-d10c53e627fb",
+        "9794c241-4ca6-4186-a489-cb14327a6773",
         "4bc2f056-54d4-4538-b80e-4fb80669a6f2",
         "f9938ba6-a779-45e4-8a30-174892545163",
         "710b6d44-642f-4c16-949b-0118f8e9c022",

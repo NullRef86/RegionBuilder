@@ -11,5 +11,8 @@ show_debug_message("Drawing a card...");
 var currentCard = cardList[|0];
 currentCard._isPickedUp = true;
 currentCard.depth = global.CurrentCardDepth++;
+
+ds_list_add(global.Hand, currentCard);
+
 ds_list_delete(cardList, 0);
 return currentCard;

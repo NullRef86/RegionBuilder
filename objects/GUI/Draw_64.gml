@@ -55,8 +55,8 @@ switch(_uiMode)
 		//	currentY += verticalSpacing;
 		//}
 		
-		currentY = startY;		
-		currentX = view_wport[0] - (view_wport[0] / 2) - 100;
+		//currentY = startY;		
+		//currentX = view_wport[0] - (view_wport[0] / 2) - 100;
 		
 		//draw_text(currentX + 20, currentY, "Discard Pile");
 		//currentY += verticalSpacing;
@@ -92,11 +92,12 @@ switch(_uiMode)
 		//	var card = global.Hand[|i];
 			
 		//	draw_set_halign(fa_right);
-		//	draw_text(currentX - 25, currentY, card._character);
 		//	draw_set_color(GetSuitColour(card));
-		//	draw_text(currentX + 50, currentY, card._value);	
-		//	draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);			
+		//	draw_text(currentX + 50, currentY, card._value);
+		//	draw_sprite(GetSuitIcon(card), 0, currentX + 55, currentY);		
 		//	draw_set_color(c_white);
+		//	draw_set_halign(fa_left);	
+		//	//draw_text(currentX + 75, currentY, "- " + card._action);
 		//	currentY += verticalSpacing;
 		//}	
 		

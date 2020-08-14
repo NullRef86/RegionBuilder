@@ -14,7 +14,7 @@ with (all)
 var allObjectsMap = json_decode(json);
 
 // Extract the objects list
-var allObjectList = allObjectsMap[?"root"];
+var allObjectList = allObjectsMap[?"AllObjects"];
 
 // For each object in the save data
 for (var i = 0; i < ds_list_size(allObjectList); i++)
@@ -23,3 +23,7 @@ for (var i = 0; i < ds_list_size(allObjectList); i++)
 	var objectSaveDataMap = allObjectList[|i];
 	CreateObjectFromSaveData(objectSaveDataMap);
 }
+
+DeserialiseCardList(global.DrawDeck, allObjectsMap[?"DrawDeck"]);
+DeserialiseCardList(global.DiscardPile, allObjectsMap[?"DiscardPile"]);
+DeserialiseCardList(global.Hand, allObjectsMap[?"Hand"]);

@@ -18,8 +18,13 @@ with (all)
 // Create root map
 var allObjectsMap = ds_map_create();
 
+// Serialise all the card lists
+ds_map_add_list(allObjectsMap, "DrawDeck", SerialiseCardList(global.DrawDeck));
+ds_map_add_list(allObjectsMap, "DiscardPile", SerialiseCardList(global.DiscardPile));
+ds_map_add_list(allObjectsMap, "Hand", SerialiseCardList(global.Hand));
+
 // Add the list as a single value under "root"
-ds_map_add_list(allObjectsMap, "root", allObjectList);
+ds_map_add_list(allObjectsMap, "AllObjects", allObjectList);
 
 // Convert to JSON, dispose of the map, and return JSON
 var json = json_encode(allObjectsMap);

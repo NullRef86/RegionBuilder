@@ -64,6 +64,8 @@ if (mouse_check_button_released(mb_left))
 			
 			other.x = offscreenPosition;
 			other.y = offscreenPosition;
+			
+			SaveGame();
 		}
 	}
 }

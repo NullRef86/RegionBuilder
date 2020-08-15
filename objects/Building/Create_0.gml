@@ -1,4 +1,4 @@
-/// @desc Setup variables
+event_inherited();
+
 _isPickedUp = false;
 _isRuined = false;
-_isHovered = false;

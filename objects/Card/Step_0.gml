@@ -1,14 +1,6 @@
-/// @desc ???
-var spriteName = sprite_Card;
-var spriteHeight = sprite_get_height(spriteName);
-var spriteWidth = sprite_get_width(spriteName);
-var spriteLeft = x;
-var spriteRight = x + spriteWidth;
-var spriteTop = y;
-var spriteBottom = y + spriteHeight;
 var mouseX = device_mouse_x_to_gui(0);
 var mouseY = device_mouse_y_to_gui(0);
-
+	
 if (_isPickedUp)
 {
 	x = mouseX - (sprite_get_width(sprite_Card) / 2);
@@ -16,34 +8,20 @@ if (_isPickedUp)
 	depth = 0;
 }
 
-// Is the mouse on the deck?
-if (!point_in_rectangle(mouseX, mouseY, spriteLeft, spriteTop, spriteRight, spriteBottom))
+if (_isMousePressedLeft)
 {
-	// Not hovered	
-	_isHovered = false;
-	return;
+	_isMousePressedLeft = false;
+	_isPickedUp = true;
+	Say(id, "I was clicked (Layer: " + string(layer) + ", Depth: " + string(depth) + ")");
 }
 
-// Hovered
-if (_isPickedUp)
+if (_isMouseReleasedLeft)
 {
-	_isHovered = false;
-}
-else
-{
-	_isHovered = true;
-}
-	
-if (mouse_check_button_pressed(mb_left))
-{
-	_isPickedUp = true;
-}
-if (mouse_check_button_released(mb_left))
-{
+	_isMouseReleasedLeft = false;
 	_isPickedUp = false;
 	depth = 1;
 
-	var offscreenPosition = -100;
+	var offscreenPosition = -1000;
 
 	with (Deck)
 	{
@@ -64,8 +42,8 @@ if (mouse_check_button_released(mb_left))
 			
 			other.x = offscreenPosition;
 			other.y = offscreenPosition;
-			
-			SaveGame();
 		}
 	}
+			
+	SaveGame();
 }

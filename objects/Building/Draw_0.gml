@@ -2,17 +2,24 @@
 
 image_blend = c_white;
 
-if (_isHovered && _isRuined)
+if (!_isPickedUp)
 {
-	image_blend = c_gray;	
+	if (_isHovered && _isRuined)
+	{
+		image_blend = c_gray;	
+	}
+	else if (_isHovered)
+	{
+		image_blend = c_ltgray;
+	}
 }
-else if (_isHovered)
-{
-	image_blend = c_ltgray;
-}
-else if (_isRuined)
+
+if (_isRuined)
 {
 	image_blend = c_dkgray;
 }
 
-draw_self()
+draw_self();
+
+
+

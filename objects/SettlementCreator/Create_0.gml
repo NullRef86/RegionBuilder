@@ -1,5 +1,7 @@
 /// @desc ???
 
+event_inherited();
+
 AddUiElement(self);
 
 x = view_wport[0] / 2;

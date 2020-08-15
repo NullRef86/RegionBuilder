@@ -5,26 +5,6 @@
     "name": "Terrain",
     "eventList": [
         {
-            "id": "dae54c65-4bc5-4536-a2e7-2b4e9f792b00",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 10,
-            "eventtype": 6,
-            "m_owner": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19"
-        },
-        {
-            "id": "c76a0086-dec3-411b-b3e7-5302fc02b823",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 11,
-            "eventtype": 6,
-            "m_owner": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19"
-        },
-        {
             "id": "3bf02e8e-48c6-4d1d-998d-6964899a58f6",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -45,16 +25,6 @@
             "m_owner": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19"
         },
         {
-            "id": "8e6a9104-4b45-491e-be81-44d145117af2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 6,
-            "m_owner": "7b7ec59d-de5c-4fb5-88bc-0f2988870b19"
-        },
-        {
             "id": "fd5c54fd-121c-4200-a777-6912fa85ae11",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -67,7 +37,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "9fa35c84-ce7c-45a9-a8f9-3f2ba2b65592",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

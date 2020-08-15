@@ -1,2 +1,1 @@
-/// @desc ???
-_isHovered = false;
+event_inherited();

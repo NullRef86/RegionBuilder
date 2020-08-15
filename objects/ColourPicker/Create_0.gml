@@ -1,5 +1,7 @@
 /// @desc Build colours
 
+event_inherited();
+
 AddUiElement(self);
 
 var colours = [c_red, c_green, c_blue, c_yellow, c_purple, c_orange, c_teal, c_dkgray];

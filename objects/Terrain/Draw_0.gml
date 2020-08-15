@@ -2,7 +2,7 @@
 
 image_blend = c_white;
 
-if (_isHovered)
+if (!_isPainting && _isHovered)
 {
 	image_blend = c_ltgray;
 }

@@ -50,6 +50,15 @@ if (_isPainting)
 	}
 }
 
+if (_isMousePressedRight)
+{
+	_isMousePressedRight = false;
+	
+	ClearBrush();
+	_isPainting = false;	
+}
+
+	
 // If control is held, AND right mouse is clicked, AND this terrain is hovered,
 // AND is done deleting, THEN delete
 if (keyboard_check(vk_control) &&

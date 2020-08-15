@@ -1,7 +1,8 @@
 var objectSaveDataMap = argument0;
 
 // Instantiate a new object using the object core save data
-var objectIndex = objectSaveDataMap[?"object_index"];
+//var objectIndex = objectSaveDataMap[?"object_index"];
+var objectIndex = asset_get_index(objectSaveDataMap[?"object_name"]);
 var objectLayer = objectSaveDataMap[?"layer"];
 var instance = instance_create_layer(0, 0, objectLayer, objectIndex);
 

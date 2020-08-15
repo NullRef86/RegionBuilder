@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "12ed12cb-dbff-4580-bbd6-4e80d9d612db",
+            "Value": {
+                "id": "5f276c70-ed03-4aba-bab7-c4a0d33cc816",
+                "resourcePath": "objects\\Controller\\Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13abdf33-3210-45ff-a82f-b7f14bccf0d8",
             "Value": {
                 "id": "6961e2ef-3647-4186-a62a-d3f911f38ab3",

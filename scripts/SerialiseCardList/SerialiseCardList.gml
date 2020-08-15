@@ -6,8 +6,7 @@ for (var i = 0; i < ds_list_size(cardList); i++)
 	var card = cardList[|i];
 	
 	var cardDetailsMap = ds_map_create();
-	cardDetailsMap[?"object_index"] = card.object_index;
-	cardDetailsMap[?"_textValue"] = card._textValue;
+	cardDetailsMap[?"object_name"] = object_get_name(card.object_index);
 	cardDetailsMap[?"x"] = card.x;
 	cardDetailsMap[?"y"] = card.y;
 	

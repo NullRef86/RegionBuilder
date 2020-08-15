@@ -10,7 +10,7 @@ for (var i = 0; i < ds_list_size(inputList); i++)
 			cardDetailsMap[?"x"], 
 			cardDetailsMap[?"y"], 
 			"CardLayer", 
-			cardDetailsMap[?"object_index"]
+			asset_get_index(cardDetailsMap[?"object_name"])
 		);
 	
 	ds_list_add(destinationList, cardInstance);

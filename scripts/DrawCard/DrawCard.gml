@@ -8,8 +8,6 @@ if (ds_list_size(cardList) == 0)
 
 show_debug_message("Drawing a card...");
 
-SaveGame();
-
 var currentCard = cardList[|0];
 currentCard._isPickedUp = true;
 currentCard.depth = global.CurrentCardDepth++;

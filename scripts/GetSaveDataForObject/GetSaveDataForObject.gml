@@ -4,7 +4,8 @@ var objectIndex = instance.object_index;
 
 // Set up the object's save data map, and load in core data
 var objectSaveDataMap = ds_map_create();
-objectSaveDataMap[?"object_index"] = objectIndex;
+//objectSaveDataMap[?"object_index"] = objectIndex;
+objectSaveDataMap[?"object_name"] = object_get_name(objectIndex);
 objectSaveDataMap[?"layer"] = instance.layer;
 
 // Loop through each of the defined properties for this object type

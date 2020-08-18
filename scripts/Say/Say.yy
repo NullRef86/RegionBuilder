@@ -1,8 +1,12 @@
 {
-    "id": "f9938ba6-a779-45e4-8a30-174892545163",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "Say",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Utils",
+    "path": "folders/Scripts/Utils.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "Say",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "7fe3f9a0-ba76-4529-ae6d-fc337617d933",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "IsCurrentBrush",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "UI",
+    "path": "folders/Scripts/UI.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "IsCurrentBrush",
+  "tags": [],
+  "resourceType": "GMScript",
 }

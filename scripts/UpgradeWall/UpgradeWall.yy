@@ -1,8 +1,12 @@
 {
-    "id": "dfea719d-31a3-49de-9fb6-86f40d1665c0",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "UpgradeWall",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Buildings",
+    "path": "folders/Scripts/Buildings.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "UpgradeWall",
+  "tags": [],
+  "resourceType": "GMScript",
 }

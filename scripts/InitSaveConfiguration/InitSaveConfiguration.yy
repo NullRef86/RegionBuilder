@@ -1,8 +1,12 @@
 {
-    "id": "66e53e04-b936-448b-8a83-9a4fcd2b07c2",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "InitSaveConfiguration",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Save_Load",
+    "path": "folders/Scripts/Save_Load.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "InitSaveConfiguration",
+  "tags": [],
+  "resourceType": "GMScript",
 }

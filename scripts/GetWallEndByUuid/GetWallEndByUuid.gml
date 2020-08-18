@@ -1,11 +1,15 @@
-var uuid = argument0;
+function GetWallEndByUuid(argument0) {
+	var uuid = argument0;
 
-with (WallEnd)
-{
-	if (_uuid == uuid)
+	with (WallEnd)
 	{
-		return self;	
+		if (_uuid == uuid)
+		{
+			return self;	
+		}
 	}
-}
 
-return undefined;
+	return undefined;
+
+
+}

@@ -1,8 +1,12 @@
 {
-    "id": "55bb8d12-e111-43ee-b886-369f916971e4",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "SerialiseAllObjects",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Save_Load",
+    "path": "folders/Scripts/Save_Load.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "SerialiseAllObjects",
+  "tags": [],
+  "resourceType": "GMScript",
 }

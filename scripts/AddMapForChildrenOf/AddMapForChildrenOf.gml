@@ -1,18 +1,23 @@
-var parentIndex = argument0;
-var buildingConfig = argument1;
+function AddMapForChildrenOf(argument0, argument1) {
+	var parentIndex = argument0;
+	var buildingConfig = argument1;
 
-var i = 0;
-while (true)
-{
-	if (object_get_name(i) == "<undefined>")
+	var i = 0;
+	while (true)
 	{
-		break;	
-	}
+		if (object_get_name(i) == "<undefined>")
+		{
+			break;	
+		}
 		
-	if (object_is_ancestor(i, parentIndex))
-	{
-		global.SaveConfiguration[?i] = buildingConfig;
-	}
+		if (object_is_ancestor(i, parentIndex))
+		{
+			global.SaveConfiguration[?i] = buildingConfig;
+		}
 		
-	i++;
+		i++;
+	}
+
+
+
 }

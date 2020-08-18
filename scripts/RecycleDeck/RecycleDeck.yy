@@ -1,8 +1,12 @@
 {
-    "id": "854258bb-aa47-43ae-befa-73b1ae7e5f57",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "RecycleDeck",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Cards",
+    "path": "folders/Scripts/Cards.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "RecycleDeck",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,117 +1,85 @@
 {
-    "id": "8b77fdb4-c8d3-422d-b77d-a74a332d6603",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "sprite_OutpostTower",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 26,
-    "bbox_left": 0,
-    "bbox_right": 26,
-    "bbox_top": 0,
-    "bboxmode": 0,
-    "colkind": 1,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "155ad6e7-dbc7-44da-969f-20a086b990de",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "8b77fdb4-c8d3-422d-b77d-a74a332d6603",
-            "compositeImage": {
-                "id": "4a9492b9-e971-4062-8c75-b9fd727f9e7b",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "155ad6e7-dbc7-44da-969f-20a086b990de",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "7a9c6799-7f3a-42ed-ac6d-08321307e674",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "155ad6e7-dbc7-44da-969f-20a086b990de",
-                    "LayerId": "c8e709e9-0e77-4951-be55-9676291d85b9"
-                },
-                {
-                    "id": "e4ecbc2c-fc25-4535-a20f-4977061833c5",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "155ad6e7-dbc7-44da-969f-20a086b990de",
-                    "LayerId": "a3c2fa8b-7cae-4994-96f3-0efba5a95dbe"
-                }
-            ]
-        },
-        {
-            "id": "68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "8b77fdb4-c8d3-422d-b77d-a74a332d6603",
-            "compositeImage": {
-                "id": "9f5feb47-07ef-44cb-962c-02fdea2e498a",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "17c37c16-709d-4695-9d74-377908f8de62",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce",
-                    "LayerId": "c8e709e9-0e77-4951-be55-9676291d85b9"
-                },
-                {
-                    "id": "4d217dce-ca04-488c-a37c-7b4145c496cb",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce",
-                    "LayerId": "a3c2fa8b-7cae-4994-96f3-0efba5a95dbe"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 27,
-    "layers": [
-        {
-            "id": "a3c2fa8b-7cae-4994-96f3-0efba5a95dbe",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "8b77fdb4-c8d3-422d-b77d-a74a332d6603",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "Layer 2",
-            "opacity": 100,
-            "visible": true
-        },
-        {
-            "id": "c8e709e9-0e77-4951-be55-9676291d85b9",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "8b77fdb4-c8d3-422d-b77d-a74a332d6603",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "Layer 1",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 4,
-    "originLocked": false,
-    "playbackSpeed": 0,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 0,
+  "bbox_right": 26,
+  "bbox_top": 0,
+  "bbox_bottom": 26,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 27,
+  "height": 27,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"155ad6e7-dbc7-44da-969f-20a086b990de","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"155ad6e7-dbc7-44da-969f-20a086b990de","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"LayerId":{"name":"c8e709e9-0e77-4951-be55-9676291d85b9","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"155ad6e7-dbc7-44da-969f-20a086b990de","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"LayerId":{"name":"a3c2fa8b-7cae-4994-96f3-0efba5a95dbe","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_OutpostTower","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"resourceVersion":"1.0","name":"155ad6e7-dbc7-44da-969f-20a086b990de","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"LayerId":{"name":"c8e709e9-0e77-4951-be55-9676291d85b9","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"LayerId":{"name":"a3c2fa8b-7cae-4994-96f3-0efba5a95dbe","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_OutpostTower","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"resourceVersion":"1.0","name":"68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"sprite_OutpostTower","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 27,
-    "xorig": 13,
-    "yorig": 13
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 2.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"b5d5c93d-e6f3-412b-add7-892b2b0c19c8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"155ad6e7-dbc7-44da-969f-20a086b990de","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b12106a3-0572-4975-a6f7-403ed83e8e8d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68a74b1b-1bf7-49cb-b5ad-d0dc3467cbce","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 13,
+    "yorigin": 13,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"sprite_OutpostTower","path":"sprites/sprite_OutpostTower/sprite_OutpostTower.yy",},
+    "resourceVersion": "1.3",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"a3c2fa8b-7cae-4994-96f3-0efba5a95dbe","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"c8e709e9-0e77-4951-be55-9676291d85b9","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "Buildings",
+    "path": "folders/Sprites/Buildings.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sprite_OutpostTower",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

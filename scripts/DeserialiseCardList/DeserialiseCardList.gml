@@ -1,17 +1,21 @@
-var destinationList = argument0;
-var inputList = argument1;
+function DeserialiseCardList(argument0, argument1) {
+	var destinationList = argument0;
+	var inputList = argument1;
 
-for (var i = 0; i < ds_list_size(inputList); i++)
-{
-	var cardDetailsMap = inputList[|i];
+	for (var i = 0; i < ds_list_size(inputList); i++)
+	{
+		var cardDetailsMap = inputList[|i];
 	
-	var cardInstance = 	
-		instance_create_layer(
-			cardDetailsMap[?"x"], 
-			cardDetailsMap[?"y"], 
-			"CardLayer", 
-			asset_get_index(cardDetailsMap[?"object_name"])
-		);
+		var cardInstance = 	
+			instance_create_layer(
+				cardDetailsMap[?"x"], 
+				cardDetailsMap[?"y"], 
+				"CardLayer", 
+				asset_get_index(cardDetailsMap[?"object_name"])
+			);
 	
-	ds_list_add(destinationList, cardInstance);
+		ds_list_add(destinationList, cardInstance);
+	}
+
+
 }

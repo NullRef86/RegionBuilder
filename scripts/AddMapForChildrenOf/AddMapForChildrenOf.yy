@@ -1,8 +1,12 @@
 {
-    "id": "4fd834ab-b708-4fbe-b095-d10c53e627fb",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "AddMapForChildrenOf",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Save_Load",
+    "path": "folders/Scripts/Save_Load.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "AddMapForChildrenOf",
+  "tags": [],
+  "resourceType": "GMScript",
 }

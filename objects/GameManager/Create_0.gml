@@ -9,11 +9,13 @@ global.RightClickHandled = false;
 
 global.CurrentCardDepth = 0;
 
-global.CurrentSave = "Test01.json";
+global.CurrentSave = "LogTest.json";
 
 global.DrawDeck = ds_list_create();
 global.DiscardPile = ds_list_create();
 global.Hand = ds_list_create();
+
+global.Log = ds_list_create();
 
 randomize();
 

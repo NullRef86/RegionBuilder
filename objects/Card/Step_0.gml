@@ -38,6 +38,8 @@ if (_isMouseReleasedLeft)
 				}
 			}			
 			
+			ds_list_add(global.Log, "DISCARD: " + currentCard._textValue);
+
 			ds_list_insert(_cardList, 0, other);
 			
 			other.x = offscreenPosition;

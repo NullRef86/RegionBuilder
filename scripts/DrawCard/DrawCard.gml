@@ -7,11 +7,11 @@ function DrawCard(argument0) {
 		return;	
 	}
 
-	show_debug_message("Drawing a card...");
-
 	var currentCard = cardList[|0];
 	currentCard._isPickedUp = true;
 	currentCard.depth = global.CurrentCardDepth++;
+
+	ds_list_add(global.Log, "DRAW: " + currentCard._textValue);
 
 	ds_list_add(global.Hand, currentCard);
 

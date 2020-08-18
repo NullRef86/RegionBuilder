@@ -77,8 +77,19 @@ switch(_uiMode)
 		//	currentY += verticalSpacing;
 		//}	
 		
-		//currentY = startY;		
-		//currentX = view_wport[0] - 175;
+		currentY = startY;		
+		currentX = view_wport[0] - 175;
+				
+		draw_set_halign(fa_right);
+		draw_text(currentX, currentY, "Activity Log");
+		currentY += verticalSpacing;
+		draw_text(currentX, currentY, "-------------------------------");
+		currentY += verticalSpacing;
+		for (var i = ds_list_size(global.Log) - 1; i >= 0; i--)
+		{
+			draw_text(currentX, currentY, global.Log[|i]);	
+			currentY += verticalSpacing;
+		}
 		
 		//draw_set_halign(fa_center);
 		//draw_text(currentX, currentY, "In Hand");

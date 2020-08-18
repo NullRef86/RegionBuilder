@@ -36,7 +36,7 @@ if (_isMousePressedLeft)
 	global.LeftClickHandled = true;
 
 	// If currently painting WallEnd, and I'm not the brush, then attach rather than paint.
-	if (IsCurrentBrush(WallEnd) && global.CurrentBrush != self)
+	if (IsCurrentBrush(WallEnd) && global.CurrentBrush.id != self.id)
 	{
 		// Get current brushes connected wall (I'm going to assume only one for now)...
 		var connectedWall = GetWallEndByUuid(global.CurrentBrush._connectionUuids[|0]);

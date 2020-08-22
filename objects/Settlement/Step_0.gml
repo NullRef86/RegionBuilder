@@ -7,7 +7,7 @@ if (_isPickedUp)
 
 if (_settlementName == "")
 {
-	_settlementName = get_string("Enter settlement name:", "Testington")	
+	_settlementName = get_string("Enter settlement name:", "Testington");
 }
 
 if (_isMousePressedLeft)

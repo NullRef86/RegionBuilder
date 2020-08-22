@@ -55,13 +55,17 @@ switch(_uiMode)
 		//	currentY += verticalSpacing;
 		//}
 		
-		//currentY = startY;		
-		//currentX = view_wport[0] - (view_wport[0] / 2) - 100;
+		currentY = startY;		
+		currentX = view_wport[0] - (view_wport[0] / 2) + 50;
 		
-		//draw_text(currentX + 20, currentY, "Discard Pile");
-		//currentY += verticalSpacing;
-		//draw_text(currentX, currentY, "-------------------------------");
-		//currentY += verticalSpacing;
+		draw_set_halign(fa_right);
+		draw_text(currentX, currentY, "Current Gold");
+		currentY += verticalSpacing;
+		draw_text(currentX, currentY, "---------------");
+		currentY += verticalSpacing;
+		
+		draw_text(currentX, currentY, global.CurrentGold);
+		draw_set_halign(fa_left);	
 		
 		//for (var i = ds_list_size(global.DiscardPile) - 1; i >= 0; i--)
 		//{
@@ -78,7 +82,7 @@ switch(_uiMode)
 		//}	
 		
 		currentY = startY;		
-		currentX = view_wport[0] - 175;
+		currentX = view_wport[0] - 10;
 				
 		draw_set_halign(fa_right);
 		draw_text(currentX, currentY, "Activity Log");

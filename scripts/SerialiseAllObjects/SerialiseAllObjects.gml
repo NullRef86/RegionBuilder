@@ -28,6 +28,8 @@ function SerialiseAllObjects() {
 	ds_list_copy(logCopy, global.Log);
 	ds_map_add_list(allObjectsMap, "Log", logCopy);
 
+	ds_map_add(allObjectsMap, "CurrentGold", global.CurrentGold);
+
 	// Add the list as a single value under "root"
 	ds_map_add_list(allObjectsMap, "AllObjects", allObjectList);
 

@@ -28,6 +28,8 @@
     {"isDnD":false,"eventNum":112,"eventType":9,"collisionObjectId":null,"parent":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":115,"eventType":9,"collisionObjectId":null,"parent":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":82,"eventType":9,"collisionObjectId":null,"parent":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":107,"eventType":9,"collisionObjectId":null,"parent":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":109,"eventType":9,"collisionObjectId":null,"parent":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

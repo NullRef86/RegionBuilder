@@ -17,6 +17,8 @@ global.Hand = ds_list_create();
 
 global.Log = ds_list_create();
 
+global.CurrentGold = 0;
+
 randomize();
 
 if (!LoadGame())

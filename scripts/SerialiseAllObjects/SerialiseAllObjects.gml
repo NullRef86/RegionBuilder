@@ -24,6 +24,10 @@ function SerialiseAllObjects() {
 	ds_map_add_list(allObjectsMap, "DiscardPile", SerialiseCardList(global.DiscardPile));
 	ds_map_add_list(allObjectsMap, "Hand", SerialiseCardList(global.Hand));
 
+	var logCopy = ds_list_create();
+	ds_list_copy(logCopy, global.Log);
+	ds_map_add_list(allObjectsMap, "Log", logCopy);
+
 	// Add the list as a single value under "root"
 	ds_map_add_list(allObjectsMap, "AllObjects", allObjectList);
 

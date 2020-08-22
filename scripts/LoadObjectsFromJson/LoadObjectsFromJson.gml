@@ -29,5 +29,5 @@ function LoadObjectsFromJson(argument0) {
 	DeserialiseCardList(global.DiscardPile, allObjectsMap[?"DiscardPile"]);
 	DeserialiseCardList(global.Hand, allObjectsMap[?"Hand"]);
 
-
+	global.Log = allObjectsMap[?"Log"];
 }
